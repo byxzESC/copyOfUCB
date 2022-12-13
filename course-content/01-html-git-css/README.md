@@ -37,7 +37,20 @@
 | [06-Stu_HTML](activities/06-Stu_HTML)  	| HTML - activity |
 | [07-Ins_Attributes](activities/07-Ins_Attributes) | Introduction to attributes |
 | [08-Stu_Attributes](activities/08-Stu_Attributes)  	| Attributes - activity |
-
+| [09-review-HTML_Tags](activities/09-review-HTML_Tags)  | Review HTML Tags |
+| [10-Stu_FixThe_HTML](activities/10-Stu_FixThe_HTML)  	| The Browser Renders Broken HTML |
+| [11-Ins_CSS-color](activities/11-Ins_CSS-color)  | Introduction to CSS color |
+| [12-Stu_CSS-color](activities/12-Stu_CSS-color)  	| CSS color - activity |
+| [13-Ins_CSS-units-font](activities/13-Ins_CSS-units-font)  	| Introduction to CSS font |
+| [14-Stu_CSS-units-font](activities/14-Stu_CSS-units-font)  	| CSS Font - activity |
+| [15-Ins_CSS-selectors](activities/15-Ins_CSS-selectors)  	| Introduction to CSS selectors |
+| [16-Stu_CSS-selectors](activities/16-Stu_CSS-selectors)  	| CSS selectors - activity |
+| [17-Ins_HTML-display](activities/17-Ins_HTML-display)  	| HTML display |
+| [18-Stu_HTML-display](activities/18-Stu_HTML-display)  	| HTML display |
+| [19-Ins_CSS-box-model](activities/19-Ins_CSS-box-model)  	| Introduction to CSS Box model |
+| [20-Stu_CSS-box-model](activities/20-Stu_CSS-box-model)  	|CSS Box model - activity |
+| [21-Ins_CSS-positioning](activities/21-Ins_CSS-positioning)  	| Introduction to CSS  |positioning
+| [22-Stu_CSS-positioning](activities/22-Stu_CSS-positioning)  	| CSS positioning - activity |
 
 
 <hr>
