@@ -17,7 +17,7 @@
 > Great for obtaining a better **practical understanding** of the course material. 
 
 -----
-### :pencil: **[Challenge](homework/README.md#unit-02-advanced-css-homework-portfolio)**
+### :pencil: **[Challenge](challenge/README.md#02-advanced-css-portfolio)**
 
 > Challenge related to this section of the course **[Challenge Instructions Link](challenge/README.md#02-advanced-css-portfolio)**
 - Your task is to create a portfolio. 
