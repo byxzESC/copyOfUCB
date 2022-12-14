@@ -68,14 +68,14 @@ footer {
   • 769px — 1024px: Small screens, laptops
   • 1025px — 1200px: Desktops, large screens*/
 
-/* Tablets - header changes color */
+/* Tablets - header changes color - up to 992px */ 
 @media screen and (max-width: 992px) {
   header {
     background: #772014;
   }
 }
 
-/* Large smartphones - navbar changes color */
+/* Large smartphones - navbar changes color - up to 768px */
 @media screen and (max-width: 768px) {
   nav {
     background-color: #bb8588;
@@ -83,8 +83,8 @@ footer {
   
 }
 
-/* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
+/* Small smartphones - image placeholders change color - up to 576px*/
+@media screen and (max-width: 576px ) {
   .sample-img {
     background-color: #8ac4ff;
   }
