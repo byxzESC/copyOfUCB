@@ -19,7 +19,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 | # | Section Name | Description |
 |:--| :--  | :--  |
 |01| [HTML Git CSS](course-content/01-html-git-css/README.md)| HTML Tags, Box Model, Floats, Classes, IDs, Positioning, Dev Tools | 
-
+|02| [Advanced CSS](course-content/02-advanced-css/README.md)| Media Queries, Flexbox, responsive design, CSS Resets, Pseudo Elements, Forms, Wireframing, CSS Selectors, CSS Variables, Git Pull conflict| 
 
 <hr>
 <hr>
