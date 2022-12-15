@@ -51,8 +51,10 @@
 | [20-Stu_CSS-box-model](activities/20-Stu_CSS-box-model)  	|CSS Box model - activity |
 | [21-Ins_CSS-positioning](activities/21-Ins_CSS-positioning)  	| Introduction to CSS  |positioning
 | [22-Stu_CSS-positioning](activities/22-Stu_CSS-positioning)  	| CSS positioning - activity |
-
-
+| [23-GithubPagesPersonal](activities/23-GithubPagesPersonal)  	| Deployment - Github Personal Page |
+| [24-1-GithubPagesProject](activities/24-1-GithubPagesProject)  	| Deployment - Github Project Page |
+| [25-2-markdown-breakdown](activities/25-2-markdown-breakdown)  	| Markdown Deep Dive 
+| [26-Stu_Mini-Project](activities/26-Stu_Mini-Project)  	| Mini Project - Landing Page
 <hr>
 <hr>
 <hr>

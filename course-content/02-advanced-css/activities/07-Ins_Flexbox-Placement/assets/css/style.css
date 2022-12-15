@@ -9,9 +9,10 @@ body {
 
 .products {
   display: flex;
-  flex-direction: column; 
+  /* flex-direction: column;  */
   /* Centers along the main axis determined by flex-direction */
   justify-content: center;/* left to right*/
+  
   /* Centers along the opposite axis */
   align-items: center;/* top to bottom*/
   width: 90%;
