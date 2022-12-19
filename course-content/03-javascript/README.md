@@ -30,5 +30,18 @@
 
 |  Activities |  Description |
 |:--	|:-- |
-|TBA| TBA |
+|[01-Ins_Script-ConsoleLog](activities/01-Ins_Script-ConsoleLog)| Introduction to `console.log` |
+|[02-Stu_Script_ConsoleLog](activities/02-Stu_Script_ConsoleLog)| `console.log` activities|
+|[03-Ins_Hello-Variable](activities/03-Ins_Hello-Variable)| Introduction to variables|
+|[04-Stu_Hello-Variable](activities/04-Stu_Hello-Variable)| Variables activity|
+|[05-Ins_Primitive-Types](activities/05-Ins_Primitive-Types)| Introduction to primitive types|
+|[06-Stu_Primitive-Types](activities/06-Stu_Primitive-Types)| Explore primitive types|
+|[07-Ins_Logical-Comparison](activities/07-Ins_Logical-Comparison-Operators)| Introduction to logical expressions|
+|[08-Stu_Logical-Comparison](activities/08-Stu_Logical-Comparison-Operators)| Logical expression activity|
+|[09-Ins_Conditional-Statements](activities/09-Ins_Conditional-Statements)| Introduction to conditional statements|
+|[10-Stu_Conditional-Statements](activities/10-Stu_Conditional-Statements)| Conditional activity|
+|[11-Ins_Arrays](activities/11-Ins_Arrays)| Introduction to arrays |
+|[12-Stu_Arrays](activities/12-Stu_Arrays)| Arrays activity|
+|[13-Ins_Iteration](activities/13-Ins_Iteration)| Introduction to `for` loops |
+|[14-Stu_Iteration](activities/14-Stu_Iteration) | `for` loop activity |
 
