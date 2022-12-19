@@ -39,7 +39,7 @@ console.log(typeof myStringWelcome);
 
 //logs Object!?! 
 var nothing = null;
-console.log(typeof null);
+console.log(typeof nothing);
 //Null. In JavaScript null is "nothing". ... Unfortunately, in JavaScript, the data type of null is an object. 
 //You can consider it a bug in JavaScript that typeof null is an object.
 

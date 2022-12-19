@@ -94,7 +94,7 @@ console.log(false || "I am truthy");//"I am truthy"
 console.log("I am truthy" || true);//"I am truthy"
 console.log("I am truthy" || false);//"I am truthy"
 console.log("I am truthy" || "I am also truthy");//"I am truthy"
-console.log(false || "I am also truthy");//"I am truthy"
+console.log(false || "I am also truthy");//"I am also truthy"
 console.log(false || 0);//0
 console.log(0|| false);//false
 

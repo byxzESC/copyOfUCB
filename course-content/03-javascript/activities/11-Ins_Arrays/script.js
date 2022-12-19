@@ -34,7 +34,8 @@ console.log(namesArr[3]);
 console.log(namesArr.length);
 
 namesArr[4] = "Bob";
-// namesArr.push("Bob");
+// namesArr[namesArr.length] = "Bob";
+namesArr.push("Bob");
 console.log(namesArr);//['Farley', 'Asher', 'Sage', 'Faye', 'Bob']
 
 console.log(namesArr[4]);//Bob
