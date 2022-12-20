@@ -28,6 +28,7 @@ students[5] = "Asher";
 console.log("Welcome to the class " + students[5]);
 
 students[6] = "Sage";
+// students.push("Sage");
 console.log("Welcome to the class " + students[6]);
 
 console.log("********");
@@ -49,4 +50,4 @@ console.log(thing);//Vroom
 
 
 console.log(notCreate)//Uncaught ReferenceError: notCreate is not defined
-var notCreate;
+var notCreate = "thing" 

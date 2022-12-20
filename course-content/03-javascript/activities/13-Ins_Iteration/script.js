@@ -15,7 +15,7 @@ for (var i = 0; i < 3; i++) {
     console.log("I am going to zoo to see " + zooAnimals[i] + ".");
 }
 
-console.log("****");4
+console.log("****");
 
 for (var i = 0; i < zooAnimals.length; i++) { 
     console.log("I am going to zoo to see " + zooAnimals[i] + ".");

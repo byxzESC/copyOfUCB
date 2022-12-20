@@ -57,11 +57,11 @@ sayWhat("Meow");
 //Logs "Goodbye"
 var sayWhatAgain = function () {
   console.log("Here: " + shadow);// "Here: Hello"
-  shadow = "Goodbye";
+  var shadow = "Goodbye";
   console.log(shadow);//"Goodbye" 
 };
 
-// sayWhatAgain();
+sayWhatAgain();
 
 console.log(shadow);//"Hello";
 
@@ -103,7 +103,7 @@ sayWhatAgainParams("Meow");
     // age = 42;
     function secondFunction(name) {
       console.log(age);//undefined
-      age = 42;
+      var age = 42;
       console.log(name + " is " + age + ".");
     }
 

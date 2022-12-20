@@ -85,6 +85,7 @@ console.log("********");
 
 var lastName = "wittles"
 var title = "sir"
+var firstName = "Bob";
 
 function sayName(lastName){
   var firstName = "farley";
@@ -95,6 +96,9 @@ function sayName(lastName){
 sayName("wittles");//"Farley Wittles"
 sayName("Furrball");//"Farley Furrball"
 sayName("The Cute");//"Farley The Cute"
+
+
+console.log(firstName);//"Bob"
 
 function catMeow(firstName){
   console.log(firstName + " " + lastName);
