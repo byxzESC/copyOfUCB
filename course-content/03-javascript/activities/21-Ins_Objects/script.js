@@ -11,12 +11,14 @@ var planet = {
   age: "4.543 billion years",
   moons: 1,
   isPopulated: true,
-  population: "7.594 billion"
+  population: "7.594 billion",
+  "is Nice": true
 };
 
 
 
 console.log(planet.population);
+// console.log(planet["population"]);
 
 // To access a property's value that is a string, number or booleean, use the object's name and the associated key	
 // Uses dot notation and logs "Earth"
@@ -54,6 +56,8 @@ var gandalf = {
 
     };
 
+
+
     console.log(gandalf.favoriteSong.name);
 
     console.log(gandalf["real name"]);//"Gandalf"
@@ -89,7 +93,7 @@ var gandalf = {
     // console.log("My favorite song is " + gandalf.favoriteSong.name);
 
     var baby = {
-      name: "Asher",
+      Name: "Asher",
       age: 2,
       "is cute": true,
       "isLoud": true,
