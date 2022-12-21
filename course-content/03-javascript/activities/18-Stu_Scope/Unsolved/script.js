@@ -1,4 +1,8 @@
+
+
 // TODO: Declare variable 'shout' with the value 'Shout' so it's available to `justShout` and `shoutItAllOut` functions
+var shout = 'shout';
+
 function justShout() {
   console.log(shout + ", " + shout);
   return;
@@ -12,10 +16,11 @@ function shoutItAllOut() {
 justShout();
 shoutItAllOut();
 
+var animal = 'Tigers';
 // TODO: Declare variable 'animal' with the value 'Tigers' so it is only available to the 'sayTigers' function
 function sayLions() {
   var animal = "Lions"; 
-  console.log(animal);
+  console.log("3" + animal);
   return;
 }
 
@@ -28,7 +33,7 @@ function sayTigers() {
 var bears = "Bears";
 
 function sayBears() {
-    var bears = "Pandas";
+    // var bears = "Pandas";
     console.log(bears + "! OH MY!");
     return;
 }
@@ -38,9 +43,10 @@ sayTigers();
 sayBears();
 
 // TODO: The variable 'sing' should be declared once in the local scope.
-var sing = "Sing"; 
 
 function singAlong() {
+  var sing = "Sing"; 
+
   console.log(sing + ",");
   var singASong = function () {
     console.log(sing + " a Song.");

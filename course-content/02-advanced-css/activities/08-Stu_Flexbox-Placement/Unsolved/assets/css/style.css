@@ -21,6 +21,7 @@ header {
 nav {
   display: flex;
   background-color: #d8a47f;
+  justify-content: right;
 }
 
 nav a {
@@ -46,6 +47,9 @@ footer {
 
 .product button {
   font-size: 150%;
+  height: 35px;
+  position: relative;
+  top:50%;
 }
 
 .product-slideshow {
@@ -70,6 +74,7 @@ footer {
 
   .product-slideshow button {
     /* Removes the slideshow buttons from the document flow */
+
     display: none;
   }
 

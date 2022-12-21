@@ -6,3 +6,16 @@ var expression2 = (x > 50);
 // Write Your JavaScript Code Here
 // what do we need to do? 
 // what tools do we have? 
+
+if (!expression1 && !expression2) {
+    console.log("True ✅ True ✅");
+}
+if (!expression1 || expression2) {
+    console.log("True ✅ False ❌");
+}
+if (expression1 || !expression2) {
+    console.log("False ❌ True ✅");
+}
+if (!expression1 && !expression2) {
+    console.log("False ❌ False ❌");
+}

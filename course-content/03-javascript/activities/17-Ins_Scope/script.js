@@ -53,7 +53,7 @@ function sayWhat(shadow) {
 }
 sayWhat("Meow");
 
-
+console.log("========================================")
 //Logs "Goodbye"
 var sayWhatAgain = function () {
   console.log("Here: " + shadow);// "Here: Hello"

@@ -15,3 +15,5 @@ Correct Answer: `shows.genre.drama.gameOfThrones.cast[0].actor`
 Incorrect Answer: `"Sean Bean"`
 
 Enter all of your answers in the empty console.logs. Once you have answered all the questions, check your console.log()s against the actual returns in the browser.
+
+shows.genre.drama.gameOfThrones.cast[0].actor

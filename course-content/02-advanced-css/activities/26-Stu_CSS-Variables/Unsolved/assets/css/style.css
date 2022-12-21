@@ -1,3 +1,8 @@
+:root {
+  --darkblue: #13293d;
+  --light: #fff;
+}
+
 body {
   font-size: 16px;
   display: flex;
@@ -19,8 +24,8 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--darkblue);
+  color: var(--light);
 }
 
 nav {
@@ -36,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: var(--light);
 }
 
 main {
@@ -49,14 +54,14 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--darkblue);
+  color: var(--light);
   margin-top: auto;
 }
 
 .products {
   flex: 1;
-  background-color: #fff;
+  background-color: var(--light);
   padding: 50px;
   display: flex;
   flex-wrap: wrap;

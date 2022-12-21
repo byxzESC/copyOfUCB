@@ -60,7 +60,20 @@ article p {
 }
 
 /* TODO: Style the keyword - underline, black text, grab cursor */
+span[data-descr] {
+  position: relative;
+  text-decoration: underline;
+  color: black;
+  cursor: grab;
+}
 
+span[data-descr]::hover {
+  content: attr(data-descr);
+  position: absolute;
+  background-color: #13293d;
+  color: #fff;
+
+}
 /* TODO: Position tooltip above the keyword, same color as header and nav links, no border-radius, smaller font size */
 
 aside {

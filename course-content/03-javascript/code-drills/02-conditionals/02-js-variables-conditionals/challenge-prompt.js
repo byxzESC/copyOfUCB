@@ -1,9 +1,10 @@
 // declare a variable named farm
-
+var farm;
 
 
 // set that farm variable to be an array with the elements
 // Pig, Cow, Chicken, Dog, Horse, Sheep
+farm = ['Pig', 'Cow', 'Chicken', 'Dog', 'Horse', 'Sheep']
 
 
 
