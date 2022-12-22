@@ -6,7 +6,7 @@ var button = document.querySelector(".button");
 // When we click on the button, the changeBlue function fires and the button turns blue
 // To stop this from happening, we use event.stopPropagation(). When we add the method at the top of each function that change the color, the event bubbling stops.
 function changeBlue(event) {
-  event.stopPropagation();
+  // event.stopPropagation();
   event.currentTarget.setAttribute(
     "style",
     "background-color: blue"
@@ -14,7 +14,7 @@ function changeBlue(event) {
 }
 
 function changePurple(event) {
-  event.stopPropagation();
+  // event.stopPropagation();
   event.currentTarget.setAttribute(
     "style",
     "background-color: #601A4A"
@@ -22,7 +22,7 @@ function changePurple(event) {
 }
 
 function changeOrange(event) {
-  event.stopPropagation();
+  // event.stopPropagation();
   event.currentTarget.setAttribute(
     "style",
     "background-color: #EE442F; color: white;"
@@ -31,6 +31,7 @@ function changeOrange(event) {
 
 //The click event also travels up the DOM. Because the orange box is also listening for a click, the color changes too. The same thing happens with the purple box. 
 outer.addEventListener("click", changePurple);
-inner.addEventListener("click", changeOrange);
+// the event type matters
+inner.addEventListener("change", changeOrange);
 button.addEventListener("click", changeBlue);
 

@@ -13,6 +13,7 @@ function setTime() {
   var timerInterval = setInterval(function() {
     //The function is the action that we want to be evaluated at each interval. This function prints a message at each interval
     secondsLeft--;
+    // secondsLeft = secondsLeft - 1;
     timeEl.textContent = secondsLeft + " seconds left till colorsplosion.";
 
     if(secondsLeft === 0) {
