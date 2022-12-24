@@ -37,3 +37,16 @@ imageContainer.addEventListener("click", function(event) {
     }
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+

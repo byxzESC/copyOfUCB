@@ -18,16 +18,14 @@ kittenEl.textContent = "This is my kitten 🐱.";
 nameEl.textContent = "His name is Jax.";
 favoriteEl.textContent = "My favorite foods are:";
 
+body.appendChild(listEl);
 body.appendChild(h1El);
 body.appendChild(infoEl);
+body.appendChild(favoriteEl);
+
 infoEl.appendChild(imgEl);
 infoEl.appendChild(kittenEl);
 infoEl.appendChild(nameEl);
-body.appendChild(favoriteEl);
-// Append ordered list 
-favoriteEl.appendChild(listEl);
-
-
 
 h1El.setAttribute("style", "margin:auto; width:50%; text-align:center;");
 infoEl.setAttribute("style", "margin:auto; width:50%; text-align:center;");
@@ -36,4 +34,30 @@ nameEl.setAttribute("style", "font-size:25px; text-align:center;");
 kittenEl.setAttribute("style", "font-size:25px; text-align:center;");
 favoriteEl.setAttribute("style", "font-size:20px;");
 
+
+// Append ordered list 
+favoriteEl.appendChild(listEl);
+listEl.appendChild(li1);
+listEl.appendChild(li2);
+listEl.appendChild(li3);
+listEl.appendChild(li4);
+
 // TODO: Add ordered list items containing four favorite foods
+li1.textContent = "banana";
+li2.textContent = "apple";
+li3.textContent = "watermelon";
+li4.textContent = "mango";
+
+listEl.setAttribute("style", "background-color: #333333; padding: 20px;");
+li1.setAttribute("style", "color: blue; padding: 5px; margin-left: 35px; background-color: white");
+li2.setAttribute("style", "color: yellow; padding: 5px; margin-left: 35px");
+li3.setAttribute("style", "color: green; padding: 5px; margin-left: 35px");
+li4.setAttribute("style", "color: red; padding: 5px; margin-left: 35px");
+
+
+// var listFood = document.createElement("ol");
+// // Create ordered list items
+// var liFood1 = document.createElement("li");
+// var liFood2 = document.createElement("li");
+// var liFood3 = document.createElement("li");
+// var liFood4 = document.createElement("li");

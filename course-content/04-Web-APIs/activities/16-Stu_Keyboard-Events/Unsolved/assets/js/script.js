@@ -1,6 +1,7 @@
 function keydownAction(event) {
   // TODO: Complete keydown function
-  console.log(event);
+  console.log('this is keydown event');
+  console.log(event)
 }
 
 function keyupAction() {
@@ -9,5 +10,6 @@ function keyupAction() {
 }
 
 document.addEventListener("keyup", keyupAction);
+document.addEventListener("keydown", keydownAction);
 // TODO: Add Event Listener for "keydown" event
 
