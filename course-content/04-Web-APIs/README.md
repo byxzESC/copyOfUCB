@@ -56,7 +56,7 @@
 |[26-Stu_Local-Storage-Todos](activities/26-Stu_Local-Storage-Todos)| Todo List - Application |
 |[27-Evr_Git-Guide](activities/27-Evr_Git-Guide)| Git-Guide |
 |[28-Evr_Git-Branch](activities/28-Evr_Git-Branch)| Git Branch |
-|[29-Evr_Git-Pull-Request](activities/29-Evr_Git-Pull-Request)| Word Guessz |
+|[29-Evr_Git-Pull-Request](activities/29-Evr_Git-Pull-Request)| Git Pull Request |
 |[30-Stu_Mini-Project](activities/30-Stu_Mini-Project)| Word Guess |
 
 

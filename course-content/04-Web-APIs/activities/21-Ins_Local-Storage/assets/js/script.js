@@ -25,6 +25,7 @@ addButton.addEventListener("click", function() {
   if (count < 24) {
     //The unary plus operator converts its operand to Number type.
     // count = parseInt(count);//"12" => 12
+    // count= count + 1
     count++;
     counter.textContent = count;
     //When we click on a button, we add the number of clicks to storage using the window's localStorage property and add a key-value pair to storage using the method setItem():
