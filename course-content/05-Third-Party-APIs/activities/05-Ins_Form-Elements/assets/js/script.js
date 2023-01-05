@@ -16,6 +16,7 @@ function handleFormSubmit(event) {
 
   // Select all checked options
   var checkedEl = $('input:checked');
+  console.log(checkedEl);
   var selected = [];
 
   // Loop through checked options to store in array
@@ -36,7 +37,14 @@ function handleFormSubmit(event) {
     selected.push($(elm).val());
   });
   console.log('Toppings: ', selected.join(', '));
-
+  
+  for(var i = 0; i < checkedEl.length; i++){
+    console.log("*********")
+    console.log(checkedEl[i]);
+    console.log(checkedEl[i].value);
+    console.log($(checkedEl[i]).val());
+    // console.log(checkedEl[i].val());
+  }
 
   // Clear input fields
   //We can clear form elements by using CSS selectors and setting an empty string value to them, but the checkbox requires a different type of reset:
