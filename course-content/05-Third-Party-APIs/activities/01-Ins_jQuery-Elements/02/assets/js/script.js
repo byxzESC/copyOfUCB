@@ -85,7 +85,8 @@ for (var property in object) {
   console.log(property + ":" + object[property]);
 }
 
-
+// https://api.jquery.com/each/
+// https://api.jquery.com/jquery.each
 // var obj = {
 //   "flammable": "inflammable",
 //   "duh": "no duh"
