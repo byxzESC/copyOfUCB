@@ -28,6 +28,7 @@ function handleFormSubmit(event) {
   // });
 
   
+  // isn't checkedEL already a jquery object, done on line 18?
   $.each(checkedEl, function (i, elm) {
     console.log("elm");
     console.log(elm);

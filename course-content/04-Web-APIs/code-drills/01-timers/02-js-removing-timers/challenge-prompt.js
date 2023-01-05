@@ -16,16 +16,21 @@ var two = setTimeout(log("Question1-2"), 1000 * 6);
 var three = setTimeout(log("Question1-3"), 1000 * 7);
 
 // remove the timers `one`, `two`, and `three`
+clearTimeout(one);
+clearTimeout(two);
+clearTimeout(three);
 
 
 
 console.log("==================== Question 02 ====================");
 // create a timer that logs "Hello" after 17 seconds
-
+var q2 = setTimeout(() => {
+  console.log("hello")
+}, 1000 * 17);
 
 
 // remove the timer you just made
-
+clearTimeout(q2);
 
 
 console.log("==================== Question 03 ====================");
@@ -41,8 +46,16 @@ console.log("==================== Question 03 ====================");
 
 console.log("==================== Question 04 ====================");
 // create a timer that logs "Part 1" after 3 seconds
-
-
+var q4 = function question4 () {
+  setTimeout(function() {
+  console.log("Part 1");
+    setTimeout(() => {
+      clearTimeout(q4);
+      console.log("Part 2");
+    }, 1000 * 2);
+  }, 1000 * 3);
+}
+q4();
 
 // create a timer that removes the "Part 1" timer after 2 seconds and also
 // console logs out "Part 2" when it runs
