@@ -64,4 +64,33 @@ $.each(abilities, function(i, ability) {
    abilityEl.append("<div>" + ability + "</div>");
 })
 
+var object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
 
+console.log(Object.keys(object1));
+var keyArray = Object.keys(object1);
+// expected output: Array ["a", "b", "c"]
+
+for(var i = 0; i< keyArray.length; i++){
+	console.log(object1[keyArray[i]]);
+}
+
+
+var object = { a: 1, b: 2, c: 3 };
+
+for (var property in object) {
+  console.log(property + ":" + object[property]);
+}
+
+// https://api.jquery.com/each/
+// https://api.jquery.com/jquery.each
+// var obj = {
+//   "flammable": "inflammable",
+//   "duh": "no duh"
+// };
+// $.each( obj, function( key, value ) {
+//   alert( key + ": " + value );
+// });
