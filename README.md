@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|06| [Server Side APIs](course-content/06-Server-Side-APIs/README.md) |Curl, Fetch, XMLHttpRequest, AJAX, Parsing JSON, Network activity |
 |05| [Third Party APIs](course-content/05-Third-Party-APIs/README.md) | JQuery, DOM, Click events, Pseudocode, Event Delegation, Bootstrap, Google Fonst, jQuery UI widgets, DayJS, Git Revert |
 |04| [Web APIs](course-content/04-Web-APIs/README.md) | Web APIs and interfaces, Timers, Document Object Model (DOM), Getting, selecting, traversing, and manipulating elements, Form events, Keyboard and mouse events, Bubbling and propagation, Event delegation, Data Attribues, Local Storage, Git pull request, Git Branch|
 |03| [Javascript](course-content/03-javascript/README.md)| Variables, Strings, Booleans, Numbers, Objects, Arrays; conditionals, For loops, while loops, until loops; this, Functions, Scope, Method, Objects |
