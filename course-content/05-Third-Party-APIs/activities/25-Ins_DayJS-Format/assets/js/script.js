@@ -6,6 +6,7 @@ var today = dayjs();
 // For the answer to the first question, we format the day object today to use MMM D, YYYY format:
 // https://day.js.org/docs/en/display/format
 $('#1a').text(today.format('MMM D, YYYY'));
+// $('#1a').text(dayjs().format('MMM D, YYYY HH:mm:ss'));
 
 // 2. What is the day of the week today?
 // To escape characters, wrap them in square brackets (e.g. [MM]).
