@@ -61,3 +61,5 @@
 |[25-Ins_DayJS-Format](activities/25-Ins_DayJS-Format)| Introduction to DayJs |
 |[26-Stu_DayJS-Format](activities/26-Stu_DayJS-Format)| DayJS activity |
 |[27-Evr_Git-Revert](activities/27-Evr_Git-Revert)| Git Revert |
+|[28-Stu_Mini-Project](activities/28-Stu_Mini-Project)| Mini Project |
+

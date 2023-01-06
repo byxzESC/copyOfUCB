@@ -111,6 +111,7 @@ var twoDimArray = [
   [32, 1, 44, 1, 23],
   [55, 12, 2, 34, 2],
   [2, 12, 44, 2, 12]];
+  
 // another seperator for your convenience
 console.log("     first array      ");
 // iterate through the first array inside twoDimArray and console log all the numbers less than 25
