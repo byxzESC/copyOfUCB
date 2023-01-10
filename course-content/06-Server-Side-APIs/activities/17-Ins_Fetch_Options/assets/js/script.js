@@ -6,7 +6,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Redirections#special_redirections
 // https://stackoverflow.com/questions/20597656/what-is-link-rel-alternate-type-text-html-href-doing
 fetch('https://api.github.com/repos/nodejs/node/issues?per_page=5', {
-  method: 'GET', //GET is the default.
+  // method: 'GET', //GET is the default.
   credentials: 'same-origin', // include, *same-origin, omit
   redirect: 'follow', // manual, *follow, error => follow: Automatically follow redirects. Unless otherwise stated the redirect mode is set to follow
 })

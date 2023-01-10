@@ -19,9 +19,12 @@ var formSubmitHandler = function (event) {
   }
 };
 
+// We read the HTML data attributes from the buttons when we click them, as follows:
 var buttonClickHandler = function (event) {
+  // `event.target` is a reference to the DOM element of what programming language button was clicked on the page
   var language = event.target.getAttribute('data-language');
 
+  // If there is no language read from the button, don't attempt to fetch repos
   if (language) {
     getFeaturedRepos(language);
 
@@ -29,14 +32,16 @@ var buttonClickHandler = function (event) {
   }
 };
 
+// We piece together the query URL before making the API request to GitHub and add parameters as needed, as shown in the following example:
 var getUserRepos = function (user) {
-  // https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-a-user
   var apiUrl = 'https://api.github.com/users/' + user + '/repos';
 
   fetch(apiUrl)
     .then(function (response) {
       if (response.ok) {
+        console.log(response);
         response.json().then(function (data) {
+          console.log(data);
           displayRepos(data, user);
         });
       } else {
@@ -49,13 +54,13 @@ var getUserRepos = function (user) {
 };
 
 var getFeaturedRepos = function (language) {
-  // https://docs.github.com/en/rest/search?apiVersion=2022-11-28#search-repositories
+  // The `q` parameter is what language we want to query, the `+is:featured` flag adds a filter to return only featured repositories
+  // The `sort` parameter will instruct GitHub to respond with all of the repositories in order by the number of issues needing help
   var apiUrl = 'https://api.github.com/search/repositories?q=' + language + '+is:featured&sort=help-wanted-issues';
 
   fetch(apiUrl).then(function (response) {
     if (response.ok) {
       response.json().then(function (data) {
-        console.log(data);
         displayRepos(data.items, language);
       });
     } else {
@@ -67,12 +72,14 @@ var getFeaturedRepos = function (language) {
 var displayRepos = function (repos, searchTerm) {
   if (repos.length === 0) {
     repoContainerEl.textContent = 'No repositories found.';
+    // Without a `return` statement, the rest of this function will continue to run and perhaps throw an error if `repos` is empty
     return;
   }
 
   repoSearchTerm.textContent = searchTerm;
 
   for (var i = 0; i < repos.length; i++) {
+    // The result will be `<github-username>/<github-repository-name>`
     var repoName = repos[i].owner.login + '/' + repos[i].name;
 
     var repoEl = document.createElement('div');
