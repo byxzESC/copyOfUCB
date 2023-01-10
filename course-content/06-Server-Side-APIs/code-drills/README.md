@@ -32,11 +32,7 @@
 | :heavy_check_mark: [05-core-card-api](01-api/05-core-card-api/README.md) | Practice - Card API
 | :heavy_check_mark: [06-core-dog-api](01-api/06-core-dog-api/README.md) | Practice - Dog API
 | :heavy_check_mark: [07-core-tv-api](01-api/07-core-tv-api/README.md) | Practice - TV API
-| :heavy_check_mark: [08-core-news-api](01-api/08-core-news-api/readme.md) | Practice - News API
-| :heavy_check_mark: [09-core-event-api](01-api/09-core-event-api/readme.md) | Practice - Event API
-| :heavy_check_mark: [10-core-stock-photo-api](01-api/10-core-stock-photo-api/readme.md) | Practice - Stock Photo API
-| :heavy_check_mark: [11-core-yelp-api](01-api/11-core-yelp-api/readme.md) | Practice - Yelp API
-| :heavy_check_mark: [12-core-itunes-api](01-api/12-core-itunes-api/readme.md) | Practice - iTunes API
+
 
 ### APIs
 
