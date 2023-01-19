@@ -12,7 +12,7 @@
 // 🙋 We import modules into our application so that we are only loading exactly what we need. 
 // This will speed up the performance of our applications.
 const fs = require("fs");
-
+// console.log(fs);
 // return the contents of 'data.csv' as a string in the variable "data"
 // "utf8" encodes the raw buffer data in human-readable format
 // 🙋 This application will read a file, data.csv, and will log the results stored in a variable, data.
