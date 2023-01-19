@@ -3,6 +3,8 @@ var issueContainerEl = document.querySelector('#issues-container');
 var limitWarningEl = document.querySelector('#limit-warning');
 
 var getRepoName = function () {
+  // https://developer.mozilla.org/en-US/docs/Web/API/Location/search
+  // The search property of the Location interface is a search string, also called a query string; that is, a string containing a '?' followed by the parameters of the URL.
   var queryString = document.location.search;
   var repoName = queryString.split('=')[1];//repo=octocat/hello-worId => ["repo", "octocat/hello-worId"]
 
@@ -33,6 +35,8 @@ var getRepoIssues = function (repo) {
         }
       });
     } else {
+      // https://developer.mozilla.org/en-US/docs/Web/API/Location/replace
+      // The replace() method of the Location interface replaces the current resource with the one at the provided URL.
       document.location.replace('./index.html');
     }
   });

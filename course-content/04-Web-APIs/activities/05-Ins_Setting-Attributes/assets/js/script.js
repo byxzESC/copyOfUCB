@@ -28,3 +28,4 @@
 for (var i = 0; i < divTags.length; i++) {
   divTags[i].setAttribute("style", "color:blue; font-size: 30px");
  }
+ 

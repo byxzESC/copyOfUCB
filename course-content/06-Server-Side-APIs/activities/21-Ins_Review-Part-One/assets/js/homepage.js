@@ -30,6 +30,7 @@ var buttonClickHandler = function (event) {
 };
 
 var getUserRepos = function (user) {
+  // https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-a-user
   var apiUrl = 'https://api.github.com/users/' + user + '/repos';
 
   fetch(apiUrl)
@@ -48,6 +49,7 @@ var getUserRepos = function (user) {
 };
 
 var getFeaturedRepos = function (language) {
+  // https://docs.github.com/en/rest/search?apiVersion=2022-11-28#search-repositories
   var apiUrl = 'https://api.github.com/search/repositories?q=' + language + '+is:featured&sort=help-wanted-issues';
 
   fetch(apiUrl).then(function (response) {
