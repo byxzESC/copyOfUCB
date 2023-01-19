@@ -93,7 +93,7 @@ var gandalf = {
     // console.log("My favorite song is " + gandalf.favoriteSong.name);
 
     var baby = {
-      Name: "Asher",
+      name: "Asher",
       age: 2,
       "is cute": true,
       "isLoud": true,
@@ -103,9 +103,10 @@ var gandalf = {
 
 
     console.log(baby.books[0])
+    console.log(baby.toys[2])
 
     console.log(baby.isLoud)
-
+    console.log("Name: " + baby['name']);
     console.log("Name: " + baby.name);
     console.log(baby.food);//undefined
     baby.food = "apples";

@@ -21,6 +21,12 @@ for (var i = 0; i < zooAnimals.length; i++) {
     console.log("I am going to zoo to see " + zooAnimals[i] + ".");
 }
 
+// console.log[0];//"Bears"
+// console.log[1];//"Giraffes"
+// console.log[2];//"Penguins"
+// console.log[3];//"Meerkats"
+// console.log[4];//undefined
+
 console.log("****");
 
 for (var i = zooAnimals.length -1 ; i >= 0; i--) { 
