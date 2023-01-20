@@ -9,7 +9,7 @@ const age = 25;
 
 // ==========================================================================
 
-// const name = "";
+const name = "";
 
 // name = "Cherie"; // TypeError: Assignment to constant variable.
 
@@ -21,9 +21,9 @@ const age = 25;
 const beatles = ["John", "Paul", "Ringo"];
 beatles.push("George");
 
-// const fav = beatles[0];
-// beatles[0] = beatles[1];
-// beatles[1] = fav;
+const fav = beatles[0];
+beatles[0] = beatles[1];
+beatles[1] = fav;
 // beatles = ["John", "Paul", "Ringo", "George"];
 // This works because by updating an array's contents, we aren't changing the reference to the underlying array
 // console.log(beatles); // Prints `["John", "Paul", "Ringo", "George"]`
