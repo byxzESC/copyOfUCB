@@ -9,6 +9,7 @@ function getApi(request) {
       console.log(response.status);
       // Then write the conditional based on that response.status value
       // Make sure to display the response on the page
+      responseText.textContent = response.status + '\n not Found'
     })
     .then(function (data) {
       console.log(data);

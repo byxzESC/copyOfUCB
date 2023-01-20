@@ -65,4 +65,9 @@ $(function () {
 });
 
 // Add interaction here
-//
+$( function() {
+  $( ".list-group" ).sortable({
+    placeholder: "ui-state-highlight"
+  });
+  $( ".list-group" ).disableSelection();
+} );

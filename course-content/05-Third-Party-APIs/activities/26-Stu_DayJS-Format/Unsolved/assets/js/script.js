@@ -31,5 +31,5 @@ var targetDay = dayjs('2027-05-04');
 var today = dayjs();
 
 // number of days between targetDay and today
-var days = targetDay.diff(today, 'days');
+var days = targetDay.diff(today, 'M');
 $('#6a').text(days);

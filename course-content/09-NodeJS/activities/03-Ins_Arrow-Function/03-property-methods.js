@@ -5,7 +5,7 @@
 var dog = {
   name: "Lassie",
   sound: "Woof!",
-  makeSound: () => console.log(this.sound),//undefined
+  makeSound: () => console.log(this.sound = "woof"),//undefined
   makeSoundFun: function(){console.log(this.sound)},//Woof!
   readTag: () => console.log("The dog's tag reads: " + this.name + "."),//The dog's tag reads: undefined.
   nested: function(){

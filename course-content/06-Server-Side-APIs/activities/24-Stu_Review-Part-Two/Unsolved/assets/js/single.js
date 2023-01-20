@@ -2,10 +2,13 @@ var repoNameEl = document.querySelector('#repo-name');
 var issueContainerEl = document.querySelector('#issues-container');
 var limitWarningEl = document.querySelector('#limit-warning');
 
+console.log(document.location);
+console.log('search has ', document.location.search);
 var getRepoName = function () {
   // Where is this value coming from?
   // TODO: Write your answer here
   var queryString = document.location.search;
+  console.log('query string is ', queryString);
   var repoName = queryString.split('=')[1];
 
   if (repoName) {
@@ -29,6 +32,7 @@ var getRepoIssues = function (repo) {
 
         // What is this checking for? Under what condition will this be `true`?
         // TODO: Write your answer here
+        console.log("link will be", response.headers.get('Link'))
         if (response.headers.get('Link')) {
           displayWarning(repo);
         }

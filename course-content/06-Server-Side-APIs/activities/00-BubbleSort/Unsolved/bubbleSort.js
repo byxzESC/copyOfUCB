@@ -69,9 +69,9 @@ var unsortedArr = [
 
 //HINT - pay attention to how you are bubblesorting this list (yes - as a human)
 //HINT - sometimes changing the size fo the example input helps 
-var sortMe = [1, 326, 251, 24, 284, 364, 287, 74, 89, 326];
+var sortMe = [1, 326, 251, 24, 284, 364, 287, 74, 89, 326, 0];
 //HINT - swap
-var arr = [2,1,3];
+var arr = [2,1,3,4];
 
 arr [0] = arr[1];
 arr[1] = arr[0];
@@ -85,11 +85,33 @@ newArr[1] = newArr[0];
 newArr[0] = temp;
 
 // [1,2,3]
-
+// I - array
+// O - sorted array
 function bubbleSort(arr) {
 
-// your code goes here
+// iterate over the array
+// compare current num with next num
+  // if current num is smaller we do nothing
+  // if current num is bigger we swap current with next num
 
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] > arr[i + 1]) {
+      var temp = arr[i];
+      var currentIndex = i;
+      arr[i] = arr[i + 1];
+      arr[currentIndex + 1] = temp;
+  }
+}
+
+// check sort
+for (var j = 0; j < arr.length; j++) {
+  for (var x = 0; x < arr.length; x++) {
+    if (arr[j] > arr[x]) {
+      var currentArr = arr;
+      bubbleSort(currentArr);
+    }
+  }
+}
 // Step One:
 // Q: What are you going to do?
 // A:

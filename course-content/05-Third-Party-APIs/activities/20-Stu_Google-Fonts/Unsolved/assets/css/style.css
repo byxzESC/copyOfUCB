@@ -6,6 +6,19 @@
   --light: #fffaf7;
 }
 
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h1 {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.lead {
+  font-weight: 100;
+}
+
 ::selection {
   color: var(--brown);
   background-color: var(--light);

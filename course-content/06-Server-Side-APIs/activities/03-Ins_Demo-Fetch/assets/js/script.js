@@ -9,7 +9,7 @@ function getApi() {
   var requestUrl = 'https://api.github.com/orgs/nodejs/repos';
 
   //We pass the requestUrl variable as an argument to the fetch() method, as shown in the following example:
-  fetch(requestUrl)
+  fetch(requestUrl, {cache: "reload"})
     //We then convert the response into JSON and return the formatted response, as follows:
     .then(function (response) {
       console.log("response", response)

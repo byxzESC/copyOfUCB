@@ -55,6 +55,7 @@ var getFeaturedRepos = function (language) {
   fetch(apiUrl).then(function (response) {
     if (response.ok) {
       response.json().then(function (data) {
+        console.log('data-items have ', data.items);
         displayRepos(data.items, language);
       });
     } else {
@@ -73,11 +74,11 @@ var displayRepos = function (repos, searchTerm) {
 
   for (var i = 0; i < repos.length; i++) {
     var repoName = repos[i].owner.login + '/' + repos[i].name;
-
+                    // octocat/
     var repoEl = document.createElement('a');
     repoEl.classList = 'list-item flex-row justify-space-between align-center';
     repoEl.setAttribute('href', './single-repo.html?repo=' + repoName);
-
+                       // herf='./single-repo.html?repo=octocat/hello-world
     var titleEl = document.createElement('span');
     titleEl.textContent = repoName;
 
