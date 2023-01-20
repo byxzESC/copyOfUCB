@@ -40,10 +40,31 @@ logCharacter(arya);
 
 // But now we can do this:
 
-const betterLogCharacter = ({ name, parents }) =>
+const betterLogCharacter = ({ name, parents }) =>{
+ 
+ 
   console.log(`${name}'s parents are: ${parents[0]} and ${parents[1]}.`);
+}
+  
 
 betterLogCharacter(jaime);
+
+
+const betterLogCharacterLetConst = ({ name, parents, friend }, thingOne, thingsTwo ) =>{
+  // let thingsTwo = "goodbye";
+  thingsTwo = "goodbye";
+  thingOne = "Hello";
+  name = "bob";
+  friend = "Joey";
+  console.log("******")
+  console.log(name, friend, thingOne)
+  console.log(`${name}'s parents are: ${parents[0]} and ${parents[1]}.`);
+}
+
+
+const friend = "joe";
+const obj = {name: 'farley', parents: ["sally", "Asher"], friend: friend };
+betterLogCharacterLetConst(obj, "Rock", "Cloud");
 
 // ---------------
 

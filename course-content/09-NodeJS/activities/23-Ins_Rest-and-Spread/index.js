@@ -91,10 +91,10 @@ console.log(firstArr);
 
 console.log("******So much Obj Spreading******")
 const objectOne = {hello: "Farley"}
-const obj = { };
-// const obj = {...objectOne };
+// const obj = { };
+const obj = {...objectOne };
 // obj.hello = objectOne.hello
-{hello: "Farley"}
+// {hello: "Farley"}
 obj.age = 6;
 
 const objectTwo = {goodbye: "Puppy"}
