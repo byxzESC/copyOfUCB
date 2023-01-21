@@ -5,9 +5,9 @@ const nodejs = {
 };
 
 // TODO: Destructure the object 'nodejs'
-
-console.log(name); // <= Node.js
-console.log(type); // <= JavaScript runtime environment
+const { name: name, type } = nodejs;
+console.log('name ', name); // <= Node.js
+console.log('type ', type); // <= JavaScript runtime environment
 
 // 2. Nested Object
 const js = {
@@ -27,7 +27,7 @@ const js = {
 };
 
 // TODO: Destructure the nested object 'js'
-
+const {}
 console.log(framework1); // <= AngularJS
 console.log(framework2); // <= Vue.js
 
