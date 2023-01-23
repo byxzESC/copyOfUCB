@@ -64,5 +64,7 @@
 |[27-Stu_Callback-Review](activities/27-Stu_Callback-Review)| Callback Review activity |
 |[28-Ins_Axios-Demo](activities/28-Ins_Axios-Demo)| Axios NPM Package |
 |[29-Stu_Axios](activities/29-Stu_Axios)| Axios NPM activity |
+|[30-Evr_Git-Fork](activities/30-Evr_Git-Fork)| `Git` Fork |
+|[31-Stu_Mini-project](activities/31-Stu_Mini-project)| CLI Mini Project |
 
 
