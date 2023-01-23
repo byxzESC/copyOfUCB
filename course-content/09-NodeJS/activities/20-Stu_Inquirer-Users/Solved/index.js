@@ -33,3 +33,23 @@ inquirer
       err ? console.log(err) : console.log('Success!')
     );
   });
+
+
+// https://thecodebarbarian.com/the-80-20-guide-to-json-stringify-in-javascript
+// const obj = { a: 1, b: 2, c: 3, d: { e: 4 } };
+
+// // '{"a":1,"b":2,"c":3,"d":{"e":4}}'
+// JSON.stringify(obj);
+
+// // {
+// //   "a": 1,
+// //   "b": 2,
+// //   "c": 3,
+// //   "d": {
+// //     "e": 4
+// //   }
+// // }
+// JSON.stringify(obj, null, '  ');
+
+// // Use 2 spaces when formatting JSON output. Equivalent to the above.
+// JSON.stringify(obj, null, 2);
