@@ -81,7 +81,8 @@ describe("Arithmetic", () => {
       const result = obj.value();
 
       // Assert
-      expect(result).toEqual(num);
+      // expect(result).toEqual(num);
+      expect(result).toBe(num);
     });
   });
 });
