@@ -45,4 +45,13 @@
 |[08-Stu_Promises](activities/08-Stu_Promises)| Promises - activity |
 |[09-Ins_Promise-All](activities/09-Ins_Promise-All)| Introduction to promise-all |
 |[10-Stu_Promise-All](activities/10-Stu_Promise-All)| Promise-all activity |
-
+|[11-Ins_TDD](activities/11-Ins_TDD)| Introduction to Tests |
+|[12-Stu_TDD](activities/12-Stu_TDD)| TDD - activity |
+|[13-Ins_Pass-Tests](activities/13-Ins_Pass-Tests)| Implement code to pass tests |
+|[14-Stu_Pass-Tests](activities/14-Stu_Pass-Tests)| Implement code to pass tests |
+|[15-Ins_Organizing-Tests](activities/15-Ins_Organizing-Tests)| Organize tests - introduction |
+|[16-Stu_Organizing-Tests](activities/16-Stu_Organizing-Tests)| Organize tests - activity |
+|[17-Ins_Introduce-Mocks](activities/17-Ins_Introduce-Mocks)| Introduction to mocks |
+|[18-Stu_First-Mock](activities/18-Stu_First-Mock)| Mock activity |
+|[19-Ins_Module-Mock-Demo](activities/19-Ins_Module-Mock-Demo)| Mock a module - Introduction |
+|[20-Stu_Mock-Fs](activities/20-Stu_Mock-Fs)| Mock `fs` - activity |
