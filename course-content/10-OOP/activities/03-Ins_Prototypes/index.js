@@ -36,9 +36,9 @@ function Programmer(name, position, age, language) {
   this.position = position;
   this.age = age;
   this.language = language;
- //  this.printInfo = function() {
- //  	console.log("Name: " + this.name + "\nPosition: " + this.position +
- //  	"\nAge: " + this.age + "\nLanguages: " + this.language);
+  // this.printInfo = function() {
+  // 	console.log("Name: " + this.name + "\nPosition: " + this.position +
+  // 	"\nAge: " + this.age + "\nLanguages: " + this.language);
 	// };
 
 }
@@ -130,7 +130,9 @@ function Human(name, location, eyes) {
   this.location = location;
   this.eyes = eyes;
   this.age = 0;
-
+  // this.scream = function () {
+  //   console.log(`AHHHHHH ${this.name}`);
+  // };
   
 }
 
