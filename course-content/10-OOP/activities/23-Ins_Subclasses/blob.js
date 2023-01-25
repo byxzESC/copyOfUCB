@@ -9,5 +9,7 @@ class Blob {
     
   }
 }
-
+const myBlob = new Blob();
+console.log("*****new Blob*****");
+myBlob.printScream()
 module.exports = Blob;
