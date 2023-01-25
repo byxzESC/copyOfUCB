@@ -6,8 +6,13 @@ Given 2 numbers, "oddChecker" returns true if both numbers are odd
 Starter Code :*/
 function oddChecker(num1, num2) {
   // code starts here
-
-
+  let num1Odd = num1 % 2 !== 1;
+  let num2Odd = num2 % 2 !== 1;
+  if (num1Odd && num2Odd) {
+    return true;
+  } else {
+    return false;
+  }
 
 
 

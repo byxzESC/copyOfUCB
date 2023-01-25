@@ -10,27 +10,28 @@ fs.readFile("animals.json", "utf8", function(err, data) {
   const dogs = [];
   const cats = [];
 
-  animalJSON.forEach((animal) => {
-    if (animal.species === 'dog') {
-      dogs.push(animal);
+  animalJSON.forEach(({species}, i, animal) => {
+    if (species === 'dog') {
+      dogs.push(animal[i]);
     } else {
-      cats.push(animal);
+      cats.push(animal[i]);
     }
   });
-  fs.writeFile('dogs.JSON', JSON.stringify(dogs), function(err) {
+  fs.writeFile('dogs.JSON', JSON.stringify(dogs, null, 2), function(err) {
     if (err) {
       throw err;
     } else {
       console.log('done');
     }
   })
-  fs.writeFile('cats.JSON', JSON.stringify(cats), function(err) {
+  fs.writeFile('cats.JSON', JSON.stringify(cats, null, 2), function(err) {
     if (err) {
       throw err;
     } else {
       console.log('done');
     }
   })
+
   // Create two new arrays to contain the cats and dogs objects
 
 });

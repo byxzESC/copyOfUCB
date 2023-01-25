@@ -7,6 +7,7 @@ describe("DayCare", () => {
       const dayCare = new DayCare();
 
       // TODO: Add a comment describing the purpose of the following statement
+      // check of dayCare constructor creates all the properties
       expect(dayCare).toEqual({ children: [], capacity: 3, ageLimit: 6 });
     });
   });
@@ -14,13 +15,16 @@ describe("DayCare", () => {
   describe("addChild", () => {
     it("should add a child to the 'children' array", () => {
       // TODO: Add a comment describing the purpose of the following declarations
+      // creating a new child object and a new daycare object
       const child = new Child("Tammy", 1);
       const dayCare = new DayCare();
 
       // TODO: Add a comment describing the purpose of the following method
+      // call addChild function on dayCare passing a child argument
       dayCare.addChild(child);
 
       // TODO: Add a comment describing the purpose of the following statements
+      // check how many children in daycare array, and if first value in dayCare array is an obj
       expect(dayCare.children.length).toEqual(1);
       expect(dayCare.children[0]).toBe(child);
     });
@@ -32,6 +36,7 @@ describe("DayCare", () => {
       dayCare.addChild(child);
 
       // TODO: Add a comment describing the purpose of the following statement
+      // check if child is over the age limit
       expect(dayCare.children.length).toEqual(0);
     });
 
@@ -40,6 +45,7 @@ describe("DayCare", () => {
       const child = new Child("Alice", 4);
 
       // TODO: Add a comment describing the purpose of the following expression
+      
       dayCare.children = [
         new Child("Tammy", 1),
         new Child("Mark", 2),
