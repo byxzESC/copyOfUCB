@@ -54,8 +54,8 @@ readFileAsync("example.txt", "utf8")
   .then(function(data) {
     console.log(data);
   })
-  .catch(function(err) {
-    console.log(err);
+  .catch(function(bacon) {
+    console.log(bacon);
   });
 
 
@@ -128,7 +128,7 @@ waitFor(2)
 
 //===============yet Another Example
 
-const fs = require('fs');
+// const fs = require('fs');
 /**
  * promisify
  * 
@@ -183,24 +183,22 @@ const promisify = function (fn) {
 }
 
 let promisifiedReadFile = promisify(fs.readFile);
-/*
-let promisifiedReadFile = function(...args) {
-  // return a new promise
-    return new Promise((resolve,reject) => {
-        // fn is replaced with fn.readFile
-        fs.readFile(...args, function (err, data) {
-          if (err) {
-            // on error reject PROMISE!!!
-            return reject(err);
-          }
-            // else we succeeded then resolve PROMISE!!!
-            resolve(data);
-        });
-    });
-}
-*/
-​
-​
+
+// let promisifiedReadFile = function(...args) {
+//   // return a new promise
+//     return new Promise((resolve,reject) => {
+//         // fn is replaced with fn.readFile
+//         fs.readFile(...args, function (err, data) {
+//           if (err) {
+//             // on error reject PROMISE!!!
+//             return reject(err);
+//           }
+//             // else we succeeded then resolve PROMISE!!!
+//             resolve(data);
+//         });
+//     });
+// }
+
 promisifiedReadFile('filename').then((data) => {
   console.log(data);
 }).catch((err) => {

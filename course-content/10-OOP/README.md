@@ -55,3 +55,11 @@
 |[18-Stu_First-Mock](activities/18-Stu_First-Mock)| Mock activity |
 |[19-Ins_Module-Mock-Demo](activities/19-Ins_Module-Mock-Demo)| Mock a module - Introduction |
 |[20-Stu_Mock-Fs](activities/20-Stu_Mock-Fs)| Mock `fs` - activity |
+|[21-Ins_Classes](activities/21-Ins_Classes)| Introduction to classes |
+|[22-Stu_Classes](activities/22-Stu_Classes)| Classes - activity |
+|[23-Ins_Subclasses](activities/23-Ins_Subclasses)| Introduction to subclasses |
+|[24-Stu_Subclasses](activities/24-Stu_Subclasses)| Subclasses - activity |
+|[25-Ins_Multiple-Classes](activities/25-Ins_Multiple-Classes)| Introduction to multiple classes |
+|[26-Stu_Multiple-Classes](activities/26-Stu_Multiple-Classes)| Multiple classes - activity |
+|[27-Evr_Git-Stash-Pop](activities/27-Evr_Git-Stash-Pop)| `Git` stash |
+|[28-Stu_Mini-Project](activities/28-Stu_Mini-Project)| Build word guessing game |
