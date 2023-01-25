@@ -16,7 +16,10 @@ class Rectangle extends Shape {
 }
 
 const rectangle = new Rectangle(12, 9);
+console.log("****new Rectangle******");
 rectangle.printInfo();
+
+console.log("****Rectangle Instance******");
 console.log(rectangle);
 
 

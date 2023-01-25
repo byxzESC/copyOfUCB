@@ -52,6 +52,8 @@ The following example demonstrates the expected transactions of the store logged
 
 What do the tests in [store.test.js](./Unsolved/test/store.test.js) tell you about the expected functionality of the `Store` class?
 
+What is [npm start](https://docs.npmjs.com/cli/v8/commands/npm-start)
+
 ## 🏆 Bonus
 
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:

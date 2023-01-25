@@ -17,5 +17,5 @@ const shapeTwo = new Shape(25, 10);
 const shapeThree = new Shape(19, 25);
 const shapeFour = new Shape(250, 250);
 
-
+console.log(shapeOne);
 shapeOne.printInfo();
