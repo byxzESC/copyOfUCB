@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|11| [Express](course-content/11-Express/README.md) | server, Express, req.params , Restful Routes, Restful APIs |
 |10| [OOP](course-content/10-OOP/README.md) | Javascript Objects, Constructor Functions, OOP, Polymorphism, Promises, TDD, Javascript classes, Git Stash  |
 |09| [NodeJS](course-content/09-NodeJS/README.md) |  Node, Internal & External Packages: FS, Request, process.argv ;NPM, Inquirer, package.json AND ES6, Constructing Classes, Destructuring, `let` and `const`, Arrow notation `() => {}`, Object destructuring `[...variable]` and `{...variable}`, Array Methods, Template Literals, Git Fork |
 |08| [Mock Interview Session](course-content/08-mock-interview-01) | Pseudocode, Visualization, Communication, Whiteboarding, Interview Practice  |
