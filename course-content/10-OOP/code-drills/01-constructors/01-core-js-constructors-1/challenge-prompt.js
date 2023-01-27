@@ -31,7 +31,9 @@ function Deck (cards) {
 // Export your two constructor functions
 //
 // -------------------- Your Code Here --------------------
-export
+export default class Deck { 
+
+}
 
 
 

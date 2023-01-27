@@ -19,7 +19,7 @@ describe("FileIO", () => {
   });
 
   describe("write", () => {
-    it("should call fs.writeFileSync with the passed in 'path' and 'data' arguments", () => {
+    it("should call fs.writeFileSync with the passed in 'path' and 'data' arguments", () => {``
       const fileIO = new FileIO();
       const path = "message.txt";
       const data = "Hello World!";

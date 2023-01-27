@@ -1,5 +1,12 @@
 [
   {
+    "term": "DNS",
+    "definition": "The Domain Name System is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities",
+    "url": "https://en.wikipedia.org/wiki/Domain_Name_System",
+    "category": "networking",
+    "relevance": 3
+  },
+  {
     "term": "SEO",
     "definition": "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic.",
     "url": "https://en.wikipedia.org/wiki/Search_engine_optimization",
@@ -12,13 +19,6 @@
     "url": "https://en.wikipedia.org/wiki/API",
     "category": "web",
     "relevance": 10
-  },
-  {
-    "term": "DNS",
-    "definition": "The Domain Name System is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities",
-    "url": "https://en.wikipedia.org/wiki/Domain_Name_System",
-    "category": "networking",
-    "relevance": 3
   },
   {
     "term": "Load-Balancing",

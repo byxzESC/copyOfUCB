@@ -48,7 +48,7 @@ const characters = [
 // The path.join() method joins all given path segments together using the platform-specific separator as a delimiter, then normalizes the resulting path.
 
 // res.send("Welcome to the Star Wars Page!")
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'view.html')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/html/view.html')));
 
 // Displays all characters
 app.get('/api/characters', (req, res) => res.json(characters));

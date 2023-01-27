@@ -83,7 +83,8 @@ app.get('/api/characters/:character', (req, res) => {
 //   "forcePoints": 1042
 // }
 
-app.post('/api/characters', (req, res) => {
+// ===Question=== why do we use app.post when you can do that in app.get with res.json or whatever
+app.get('/api/characters', (req, res) => {
 
   //The req. body object allows you to access data in a string or JSON object from the client side. You generally use the req. body object to receive data through POST and PUT requests in the Express server. ... body object into the console results in the user's email and password.
   const newCharacter = req.body;

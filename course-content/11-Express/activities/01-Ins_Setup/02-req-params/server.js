@@ -55,7 +55,7 @@ app.get('/api/users/:userId/post/:postid', (req, res) => {
   // "postid": "42"
   // }
   
-  console.log(req.params);//{character: "Jedi", id: 2}
+  console.log('params has ', req.params);//{character: "Jedi", id: 2}
   // What does this log?
   console.log(req.params);
   res.json(req.params);

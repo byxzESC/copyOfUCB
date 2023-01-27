@@ -11,12 +11,12 @@ const sortHelper = (type) =>
   termData.sort(sortData('name', 'relevance', `${type}`));
 
 // TODO: Add a comment describing the functionality of this route
-
+// incoming url request to api/terms
 app.get('/api/terms/', (req, res) => {
   // TODO: Add a comment describing the req.query object
-
+  // return the amount query after ?q as object
   const hasQuery = Object.keys(req.query).length > 0;
-
+  console.log(sort)
   if (hasQuery && req.query.sort === 'dsc') {
     return res.json(sortHelper('dsc'));
   }
@@ -30,12 +30,11 @@ app.get('/api/terms/', (req, res) => {
 });
 
 // TODO: Add a comment describing what this route will return
-
+// return any terms.json
 app.get('/api/term/:term', (req, res) => {
   // TODO: Add a comment describing the content of req.params in this instance
-
+  // req.params is object term and its value
   const requestedTerm = req.params.term.toLowerCase();
-
   for (let i = 0; i < termData.length; i++) {
     if (requestedTerm === termData[i].term.toLowerCase()) {
       return res.json(termData[i]);
@@ -47,7 +46,7 @@ app.get('/api/term/:term', (req, res) => {
 });
 
 // TODO: Add a comment describing what this route will return
-
+// return any category json 
 app.get('/api/terms/:category', (req, res) => {
   const requestedCategory = req.params.category.toLowerCase();
   const result = [];
@@ -62,11 +61,17 @@ app.get('/api/terms/:category', (req, res) => {
 });
 
 // TODO: Add a comment describing what this route will return
-
+// return query categories
 app.get('/api/categories', (req, res) => {
   const categories = termData.map((term) => term.category);
-
-  const result = categories.filter((cat, i) => categories.indexOf(cat) === i);
+  console.log('categories array is ', categories, '\n');
+  console.log(categories.filter((a, b) => {
+    console.log('index of element is ', a, categories.indexOf(a));
+    console.log('index of the element is ', b, '\n');
+    categories.indexOf(a) === b;
+    })
+  )
+  const result = categories.filter((a, b) => categories.indexOf(a) === b);
 
   return res.json(result);
 });
