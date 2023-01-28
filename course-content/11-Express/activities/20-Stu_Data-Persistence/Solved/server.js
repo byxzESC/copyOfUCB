@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
 // Helper method for generating unique ids
 const uuid = require('./helpers/uuid');
-const reviews = require('./db/reviews');
 
 const PORT = 3001;
 
@@ -19,18 +19,21 @@ app.get('/', (req, res) =>
 
 // GET request for reviews
 app.get('/api/reviews', (req, res) => {
-  res.status(200).json(reviews);
+  // Send a message to the client
+  res.status(200).json(`${req.method} request received to get reviews`);
+
+  // Log our request to the terminal
+  console.info(`${req.method} request received to get reviews`);
 });
 
 // POST request to add a review
-// NOTE: Data persistence isn't set up yet, so this will only exist in memory until we implement it
 app.post('/api/reviews', (req, res) => {
   // Log that a POST request was received
   console.info(`${req.method} request received to add a review`);
 
   // Destructuring assignment for the items in req.body
   const { product, review, username } = req.body;
-  // req.body.product;
+
   // If all the required properties are present
   if (product && review && username) {
     // Variable for the object we will save
@@ -40,6 +43,30 @@ app.post('/api/reviews', (req, res) => {
       username,
       review_id: uuid(),
     };
+
+    // Obtain existing reviews
+    fs.readFile('./db/reviews.json', 'utf8', (err, data) => {
+      if (err) {
+        console.error(err);
+        // return res.status(500).json('Error in posting review');
+      } else {
+        // Convert string into JSON object
+        const parsedReviews = JSON.parse(data);
+
+        // Add a new review
+        parsedReviews.push(newReview);
+
+        // Write updated reviews back to the file
+        fs.writeFile(
+          './db/reviews.json',
+          JSON.stringify(parsedReviews, null, 4),
+          (writeErr) =>
+            writeErr
+              ? console.error(writeErr)
+              : console.info('Successfully updated reviews!')
+        );
+      }
+    });
 
     const response = {
       status: 'success',
