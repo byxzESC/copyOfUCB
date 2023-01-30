@@ -32,3 +32,16 @@ const readAndAppend = (content, file) => {
 };
 
 module.exports = { readFromFile, writeToFile, readAndAppend };
+
+
+
+// input - arrayNums and function
+// output - return result 
+
+map = (array, cb) => {
+  let result;
+  for (let i = 0; i < array.length; i++) {
+    result.push(cb(array[i]))
+  }
+  return result;
+}
