@@ -3,6 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const util = require('util');
 const { readFromFile, readAndAppend } = require('./helpers/fsUtils');
+const routers = require('./routes')
 
 // Helper method for generating unique ids
 const uuid = require('./helpers/uuid');
@@ -16,16 +17,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
-
+app.use(routers);
 // GET Route for homepage
 app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
-// GET Route for feedback page
-app.get('/feedback', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/pages/feedback.html'))
-);
+// // GET Route for feedback page
+// app.get('/feedback', (req, res) =>
+//   res.sendFile(path.join(__dirname, '/public/pages/feedback.html'))
+// );
 
 // GET Route for retrieving all the tips
 app.get('/api/tips', (req, res) => {

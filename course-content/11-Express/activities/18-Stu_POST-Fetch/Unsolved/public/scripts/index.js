@@ -4,14 +4,20 @@ const reviewInput = document.getElementById('review');
 const reviewForm = document.getElementById('review-form');
 
 // TODO: Add a comment explaining the functionality of this helper function
+// post review function accepting a argument name review
+
+// --- Question --- when is the user input being sent to the server or the world
+// is this not yet received by the server?
 const postReview = (review) =>
   // TODO: Add a comment explaining what sort of data we need to provide when invoking the fetch function for a POST request
+  // fetching api/reviews, post operation
   fetch('/api/reviews', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
     // TODO: Add a comment describing why one would need to convert the JSON object to a string in this instance
+    // stringifies JSON formate
     body: JSON.stringify(review),
   })
     .then((res) => res.json())
@@ -20,6 +26,7 @@ const postReview = (review) =>
       return data;
     })
     // TODO: Add a comment describing the functionality of the catch statement
+    // if any errors were to occur, it will invoke catch
     .catch((error) => {
       console.error('Error in POST request:', error);
     });
