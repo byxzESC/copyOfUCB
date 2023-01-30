@@ -10,10 +10,6 @@ Work with a partner to implement the following user story:
 
 * It's done when I have created an endpoint for `/api` that will return a list of pull requests for a given GitHub repository.
 
-* It's done when my endpoint accepts multiple queries for `organization` and `repository`.
-
-* It's done when I have tested my endpoints by performing a GET request in Insomnia to both `api/organization` and `/api/repository` and verified that the desired results for each route are returned.
-
 ---
 
 ## 💡 Hints
@@ -27,6 +23,11 @@ How can the [GitHub Docs on pulls](https://docs.github.com/en/rest/reference/pul
 If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
 * How can you save multiple request URLs in Insomnia Core?
+
+* It's done when my endpoint accepts multiple queries for `organization` and `repository`.
+
+* It's done when I have tested my endpoints by performing a GET request in Insomnia to both `api/organization` and `/api/repository` and verified that the desired results for each route are returned.
+
 
 Use [Google](https://www.google.com) or another search engine to research this.
 

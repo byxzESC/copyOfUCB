@@ -16,7 +16,7 @@ Work with a partner to implement the following user story:
 
 * It's done when I have created an `index.js` file that imports all my router files.
 
-* It's done when I have required my `routes.js` file inside my `server.js` file.
+* It's done when I have required my `routes` inside my `server.js` file.
 
 ## 📝 Notes
 
