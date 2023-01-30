@@ -22,6 +22,17 @@ app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
+// app.get('/:non-existent', (req, res) => {
+//   const requestedTerm = req.params.term.toLowerCase();
+//   if (requestedTerm !== feedback && requestedTerm !== diagnostics && requestedTerm !== tips) {
+//     res.sendFile(path.join(__dirname, '/public/404.html'));
+//   }
+// });
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/404.html'));
+})
+
 // GET Route for feedback page
 app.get('/feedback', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/pages/feedback.html'))

@@ -10,8 +10,11 @@ const app = express();
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/api', api);
 
+// ---Question--- why clog only works before line 16
+
+app.use('/api', api);
+app.use(clog);
 app.use(express.static('public'));
 
 // GET Route for homepage
