@@ -46,9 +46,17 @@
 |[08-Stu_CRUD-Insert](activities/08-Stu_CRUD-Insert)|Students: Add Comments to Implementation of Selecting and Inserting Data Using MySQL|
 |[09-Ins_CRUD-Delete](activities/09-Ins_CRUD-Delete)|CRUD-Delete|
 |[10-Stu_CRUD-Delete](activities/10-Stu_CRUD-Delete)|Students: RUD-Delete|
-|[09-Ins_CRUD-Delete](activities/09-Ins_CRUD-Delete)|CRUD-Delete|
-|[10-Stu_CRUD-Delete](activities/10-Stu_CRUD-Delete)|Students: RUD-Delete|
-
-
+|[11-Ins_Connect-Node](activities/11-Ins_Connect-Node)|Connect-Node|
+|[12-Stu_Connect-Node](activities/12-Stu_Connect-Node)|Students: Connect-Node|
+|[13-Ins_Data-Types](activities/13-Ins_Data-Types)|Data-Types|
+|[14-Stu_Data-Types](activities/14-Stu_Data-Types)|Students: Data-Types|
+|[15-Ins_Schema](activities/15-Ins_Schema)|Schema|
+|[16-Stu_Schema](activities/16-Stu_Schema)|Students: Schema|
+|[17-Ins_Seeds](activities/17-Ins_Seeds)|Seeds|
+|[18-Stu_Seeds](activities/18-Stu_Seeds)|Students: Seeds|
+|[19-Ins_Foreign-Primary-Key](activities/19-Ins_Foreign-Primary-Key)|Foreign-Primary-Key|
+|[20-Stu_Foreign-Primary-Key](activities/20-Stu_Foreign-Primary-Key)|Students: Foreign-Primary-Key|
+|[21-Ins_Prepared-Statements](activities/21-Ins_Prepared-Statements)|Prepared-Statements|
+|[22-Stu_Prepared-Statements](activities/22-Stu_Prepared-Statements)|Students: Prepared-Statements|
 
 
