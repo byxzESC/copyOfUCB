@@ -1,5 +1,4 @@
--- USE books_db;
-
+-- Insert multiple biographies --
 INSERT INTO biographies (id, name)
 VALUES
     ( 001, "Diary of Anne Frank"),
@@ -7,3 +6,4 @@ VALUES
     ( 003, "Long Walk to Freedom");
 
 SELECT * FROM biographies;
+SELECT name FROM biographies;

@@ -17,23 +17,25 @@ const db = mysql.createConnection(
     user: 'root',
     // MySQL password
     password: 'password',
-    database: 'courses_db'
+    database: 'books_db'
   },
-  console.log(`Connected to the courses_db database.`)
+  console.log(`Connected to the books_db database.`)
 );
 
-// Hardcoded query: DELETE FROM course_names WHERE id = 3;
-const num = 3;
+// Query database
+let deletedRow = 2;
+// let deletedRow = '2;DROP Table favorite_books';
 
-db.query(`DELETE FROM course_names WHERE id = ?`, num, (err, result) => {
+// db.query(`DELETE FROM favorite_books WHERE id = ${deletedRow}`, (err, result) => {
+db.query("DELETE FROM favorite_books WHERE id = ?", deletedRow, (err, result) => {
   if (err) {
     console.log(err);
   }
-  console.log("affectedRows: ", result.affectedRows);
+  console.log(result);
 });
 
 // Query database
-db.query('SELECT * FROM course_names', function (err, results) {
+db.query('SELECT * FROM favorite_books', function (err, results) {
   console.log(results);
 });
 

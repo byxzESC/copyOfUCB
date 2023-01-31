@@ -15,3 +15,14 @@ CREATE TABLE produce (
 );
 
 -- mysql -u root -p
+
+-- Database Naming Conventions
+-- Name can be singular or plural but as the database represents a single database it should be singular.
+
+
+-- Table Naming Conventions
+-- Using lowercase will help speed typing, avoid mistakes as MYSQL is case sensitive.
+-- Space replaced with Underscore — Using space between words is not advised.
+-- Numbers are not for names — While naming, it is essential that it contains only Alpha English alphabets.
+-- Valid Names — Names should be a descriptive of the elements. i.e. — Self-explanatory and not more than 64 characters.
+-- Don't use dots, spaces, or dashes in database, schema, table, or column names. Dots are for identifying objects, usually in the database.
