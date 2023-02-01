@@ -16,7 +16,7 @@ const db = mysql.createConnection(
     // MySQL username,
     user: 'root',
     // TODO: Add MySQL password
-    password: '',
+    password: 'asdf',
     database: 'books_db'
   },
   console.log(`Connected to the books_db database.`)
@@ -26,16 +26,18 @@ const db = mysql.createConnection(
 
 let deletedRow = 2;
 
-db.query(`DELETE FROM favorite_books WHERE id = ?` (err, result) => {
+db.query(`DELETE FROM favorite_books WHERE id = ?`, deletedRow, (err, result) => {
   if (err) {
     console.log(err);
   }
+  console.log('this is the result on successful delete')
   console.log(result);
 });
 
 // Query database
 db.query('SELECT * FROM favorite_books', function (err, results) {
-  console.log(results);
+  console.log('this is the whole table from line 38')
+  console.log(`this is the whole table from line 38 ${JSON.parse(results)}`);
 });
 
 // Default response for any other request (Not Found)
@@ -46,3 +48,20 @@ app.use((req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+
+
+function startWith (string, searchStr, position) {
+  let result = false;
+    if (position) {
+      if (searchStr.charAt(position) === string) {
+        result = true;
+      }
+    } else {
+      if (searchStr.charAt(0) === string) {
+        result = true;
+      }
+    }
+
+  return result;
+}

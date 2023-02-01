@@ -9,7 +9,7 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-// Connect to database
+// creat
 const db = mysql.createConnection(
   {
     host: 'localhost',
