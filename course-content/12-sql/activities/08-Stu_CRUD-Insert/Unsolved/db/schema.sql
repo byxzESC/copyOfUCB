@@ -8,3 +8,6 @@ CREATE TABLE biographies (
   name VARCHAR(100) NOT NULL
 );
 
+
+-- CREATE DATABASE cats_db;
+

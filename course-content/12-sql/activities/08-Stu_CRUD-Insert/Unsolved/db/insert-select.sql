@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+-- USE books_db;
+>>>>>>> 78d111770fd855abd10b02a9d1d39712a63bb319
 
 INSERT INTO biographies (id, name)
 VALUES

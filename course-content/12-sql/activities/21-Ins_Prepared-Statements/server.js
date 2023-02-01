@@ -23,9 +23,9 @@ const db = mysql.createConnection(
 );
 
 // Hardcoded query: DELETE FROM course_names WHERE id = 3;
-// const num = 3;
+const num = 3;
 
-db.query(`DELETE FROM course_names WHERE id = ?`, 3, (err, result) => {
+db.query(`DELETE FROM course_names WHERE id = ?`, num, (err, result) => {
   if (err) {
     console.log(err);
   }

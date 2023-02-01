@@ -1,3 +1,3 @@
 UPDATE produce 
-SET name = "strawberry" 
+SET name = "strawberry"
 WHERE id = 1;
