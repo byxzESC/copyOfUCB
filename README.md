@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|13| [ORM](course-content/13-ORM/README.md) | ORM, Sequelize |
 |12| [SQL](course-content/12-sql/README.md) | CallBacks, MYSQL, node & MySQL |
 |11| [Express](course-content/11-Express/README.md) | server, Express, req.params , Restful Routes, Restful APIs |
 |10| [OOP](course-content/10-OOP/README.md) | Javascript Objects, Constructor Functions, OOP, Polymorphism, Promises, TDD, Javascript classes, Git Stash  |
