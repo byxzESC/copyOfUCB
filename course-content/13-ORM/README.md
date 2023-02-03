@@ -48,4 +48,16 @@
 |[12-Stu_RESTful-Routes](activities/12-Stu_RESTful-Routes)| RESTful routes - activity |
 |[13-Ins_Validation](activities/13-Ins_Validation)| Introduction to Validation |
 |[14-Stu_Validation](activities/14-Stu_Validation)| Validation - activity |
-
+|[15-Ins_Password-Hashing](activities/15-Ins_Password-Hashing)| Introduction to password hashing |
+|[16-Stu_Password-Hashing](activities/16-Stu_Password-Hashing)| Password hashing - activity |
+|[17-Ins_Hooks](activities/17-Ins_Hooks)| Introduction to hook methods |
+|[18-Stu_Hooks](activities/18-Stu_Hooks)| Hook methods - activity |
+|[19-Ins_Instance-Method](activities/19-Ins_Instance-Method)| Introduction to instance method |
+|[20-Stu_Instance-Method](activities/20-Stu_Instance-Method)| Instance method activity |
+|[21-Ins_One-to-One](activities/21-Ins_One-to-One)| Introduction to `one-to-one` relationship |
+|[22-Stu_One-to-One](activities/22-Stu_One-to-One)| `One-to-one` relationship activity |
+|[23-Ins_One-to-Many](activities/23-Ins_One-to-Many)| Introduction to `one-to-many` relationship |
+|[24-Stu_One-to-Many](activities/24-Stu_One-to-Many)| `One-to-many` relationship activity |
+|[25-Ins_Literals](activities/25-Ins_Literals)| Introduction to literals |
+|[26-Stu_Literals](activities/26-Stu_Literals)| Literals - activity |
+|[27-Stu_Eslint](activities/27-Stu_Eslint)| Eslint |
