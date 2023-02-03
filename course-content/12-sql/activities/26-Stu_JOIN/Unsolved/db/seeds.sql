@@ -5,7 +5,8 @@ VALUES (1),
        (10),
        (15);
 
-INSERT INTO favorite_books (book_name, in_stock, book_price)
+INSERT INTO favorite_books 
+(book_name, in_stock, book_price)
 VALUES ("The Great Gatsby", true, 1),
        ("Huckleberry Finn", true, 3),
        ("100 Years of Solitude", false, 5),

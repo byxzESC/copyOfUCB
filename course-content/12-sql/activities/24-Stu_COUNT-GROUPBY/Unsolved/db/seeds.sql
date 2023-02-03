@@ -1,11 +1,12 @@
-INSERT INTO favorite_books (book_name, section, in_stock, quantity)
+INSERT INTO favorite_books 
+            (book_name, section, in_stock, quantity)
 VALUES ("The Great Gatsby", 1, true, 11),
        ("Huckleberry Finn", 1, true, 4),
-       ("100 Years of Solitude", 3, false, 0),
-       ("Things Fall Apart", 4 , false, 0 ),
+       ("100 Years of Solitude", 3, true, 0),
+       ("Things Fall Apart", 4 , true, 0 ),
        ("Crime and Punishment", 1, true, 15),
        ("Moby Dick", 2, true, 11),
-       ("Decameron", 5, false, 0),
+       ("Decameron", 5, true, 0),
        ("The Wind and the Willows", 2, true, 11),
        ("Ulysses", 3, true, 8),
        ("Madame Bovary", 4 , true, 9 ),
