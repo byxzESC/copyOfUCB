@@ -21,6 +21,24 @@ router.get('/:id', async (req, res) => {
     const readerData = await Reader.findByPk(req.params.id, {
       include: [{ model: LibraryCard }, { model: Book }],
       // TODO: Add a sequelize literal to get a count of short books
+      attributes: {
+        include: [
+          [
+            sequelize.literal(
+              `(SELECT CASE 
+                  WHEN pages < 300 THEN "shortBooks" 
+                  ELSE "longBooks" 
+                END AS shortBooks 
+                FROM Book
+                )`
+            ),
+            'shortBooks',
+            // sequelize.literal(
+            //   `()`
+            // )
+          ],
+        ],
+      },
     });
 
     if (!readerData) {
