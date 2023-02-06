@@ -61,3 +61,5 @@
 |[25-Ins_Literals](activities/25-Ins_Literals)| Introduction to literals |
 |[26-Stu_Literals](activities/26-Stu_Literals)| Literals - activity |
 |[27-Stu_Eslint](activities/27-Stu_Eslint)| Eslint |
+|[28-Stu_Mini-Project](activities/28-Stu_Mini-Project)|Mini-Project|
+
