@@ -12,7 +12,13 @@ var Book = require("../models/book.js");
 module.exports = function(app) {
 
   // Add sequelize code to get all books and return them as JSON
-  app.get("/api/all", function(req, res) {
+  app.get("/api/all", async function(req, res) {
+    try {
+      const bookData = await Book.findAll();
+      res.status(200).json(bookData);
+    } catch (err) {
+      res.status(500).json(err);
+    }
 
   });
 
@@ -43,7 +49,16 @@ module.exports = function(app) {
 
   // Add sequelize code to create a book
   app.post("/api/new", function(req, res) {
-
+    console.log("Book Data:");
+    console.log(req.body);
+    Book.create({
+      title: req.body.title,
+      author: req.body.author,
+      genre: req.body.genre,
+      pages: req.body.pages
+    }).then(function(results) {
+      res.json(results);
+    });
   });
 
   // Add sequelize code to delete a book

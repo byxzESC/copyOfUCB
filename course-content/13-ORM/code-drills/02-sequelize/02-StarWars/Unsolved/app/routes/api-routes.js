@@ -4,7 +4,7 @@
 
 // Dependencies
 // =============================================================
-var orm = require("../config/orm.js");
+var orm = require("../model/character");
 
 
 // Routes
