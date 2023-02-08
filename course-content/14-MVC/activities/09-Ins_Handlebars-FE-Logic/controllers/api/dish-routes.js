@@ -3,7 +3,7 @@ const Dish = require('../../models/Dish');
 
 // route to create/add a dish using async/await
 // POST
-// http://localhost:3001/api/dishe from FE JS
+// http://localhost:3001/api/dish from FE JS
 router.post('/', async (req, res) => {
   try { 
     const dishData = await Dish.create({
