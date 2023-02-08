@@ -56,4 +56,12 @@
 |[20-Stu_Middleware](activities/20-Stu_Middleware)| middleware - activity |
 |[19-Ins_Middleware](activities/19-Ins_Middleware)| Introduction to middleware |
 |[20-Stu_Middleware](activities/20-Stu_Middleware)| middleware - activity |
+|[21-Ins_MVC-Review](activities/21-Ins_MVC-Review)| MVC Review |
+|[22-Stu_MVC-Review](activities/22-Stu_MVC-Review)| MVC Review - activity |
+|[23-Ins_Auth-Review](activities/23-Ins_Auth-Review)| Auth Review |
+|[24-Stu_Auth-Review](activities/24-Stu_Auth-Review)| Auth Review - activity |
+|[25-Ins_Lint-Review](activities/25-Ins_Lint-Review)| Lint Review |
+|[26-Stu_Lint-Review](activities/26-Stu_Lint-Review)| Lint Review - activity |
+|[27-Stu_Prettier](activities/27-Stu_Prettier)| Introduction to Prettier |
+|[28-Stu_Mini-Project](activities/28-Stu_Mini-Project)| Mini Project - activity |
 
