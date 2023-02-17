@@ -12,7 +12,7 @@ function myFuncA() {
   // this becomes undefined in the myFuncA because it was not assigned.
   console.log('myFuncAThis', this);//undefined if using strict mode!
   // since this was not assigned by the call, it will default to the global object
-  console.log(globalThis === this);
+  console.log("myFuncA: globalThis === this", globalThis === this);
 }
 
 
@@ -24,7 +24,7 @@ const objB = {
     console.log('globalThis', globalThis);
     console.log('myFuncBThis', this);
     // In the FEC, a new reference to this is created
-    console.log("myFuncB: ", globalThis === this);
+    console.log("myFuncB: globalThis === this", globalThis === this);
   }
 };
 
@@ -38,7 +38,7 @@ const objC = {
     // refers to the window - arrow function does not have its own bindings to this 
     console.log('myFuncCThis', this);
     // In the FEC, a new reference to this is not created
-    console.log("myFuncC: ", globalThis === this);
+    console.log("myFuncC: globalThis === this ", globalThis === this);
   }
 };
 
