@@ -11,6 +11,7 @@ function bankAccount() {
     displayFunds: function () {
       // We have access to our outer functions variable which we console.log.
       // This is a closure. The inner function has access to the outer functions scope.
+      // debugger;
       console.log(
         `You have $${checking} in your checking account and $${savings} in your savings account`
       );
@@ -84,6 +85,7 @@ sage.displayInfo();
 
 function makeAdder(x) {
   return function(y) {
+    // debugger;
     return x + y;
   };
 }
