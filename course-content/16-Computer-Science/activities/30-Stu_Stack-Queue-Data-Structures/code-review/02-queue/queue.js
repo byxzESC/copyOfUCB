@@ -11,7 +11,7 @@ var Queue = function(){
 
   // Dequeue
   this.dequeue = function() {
-    this.items.shift();
+    return this.items.shift();
   }
 
   this.getFirst = function() {
@@ -49,12 +49,12 @@ class Queue {
   }
 
   // adds an element to the back of the queue
-  addToQueue(el) {
+  enqueue(el) {
     return this.container.push(el);
   }
 
   // removes an element from the front of the queue
-  removeFromQueue() {
+  dequeue() {
     return this.container.shift();
   }
 }
