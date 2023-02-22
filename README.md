@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|17| [NoSQL](course-content/17-NoSQL/README.md) | ODM, Mongo, Mongoose  |
 |16| [Computer Science](course-content/16-Computer-Science) | Computer Science Introduction; Big O, Binary Search, Selection Sort, Insertion Sort, Quicksort, Stack, Queue, Linked List, BST, Hashing Functions |
 |15| [Project Two](course-content/15-Project-2/README.md) | Full Stack SQL Backed App |
 |14| [MVC](course-content/14-MVC/README.md) | MVC, Handlebars, Template Engines  |
