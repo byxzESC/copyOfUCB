@@ -55,3 +55,10 @@
 |[23-Ins_Recursion](activitites/23-Ins_Recursion)| Introduction to Recursion |
 |[24-Stu_Recursion](activitites/24-Stu_Recursion)| Recursion - activity |
 |[25-Ins_Binary-Search](activitites/25-Ins_Binary-Search)| Introduction to Binary Search |
+|[26-Stu_Binary-Search](activitites/26-Stu_Binary-Search)| Introduction to Binary Search |
+|[27-Stu_Selection-Sort](activitites/27-Stu_Selection-Sort)| Selection Sort - activity |
+|[28-Stu_Insertion-Sort](activitites/28-Stu_Insertion-Sort)| Selection Sort - activity |
+|[29-Stu_Quicksort](activitites/29-Stu_Quicksort)| QuickSort - activity  |
+|[30-Stu_Stack-Queue-Data-Structures](activitites/30-Stu_Stack-Queue-Data-Structures)| Stack, Queue and Data Structures - activity |
+|[31-Stu_Linked-List](activitites/31-Stu_Linked-List)| Linked List - activity  |
+|[32-Stu_Binary-Search-Tree](activitites/32-Stu_Binary-Search-Tree)| Binary Search Tree - activity |
