@@ -1,7 +1,5 @@
 .gitignore
 .DS_Store
 node_modules/
-Solved
-Main
 in-place.js
 
