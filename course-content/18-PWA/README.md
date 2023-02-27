@@ -44,6 +44,17 @@
 |[12-Stu_Webpack-HMR](activities/12-Stu_Webpack-HMR)| Webpack-HMR |
 |[13-Ins_Client-Server](activities/13-Ins_Client-Server)| Introduction - Client-Server |
 |[14-Stu_Client-Server](activities/14-Stu_Client-Server)| Client-Server |
-
+|[15-Ins_Workbox-Service-Workers](activities/15-Ins_Workbox-Service-Workers)| Introduction - Workbox-Service-Workers |
+|[16-Stu_Workbox-Service-Workers](activities/16-Stu_Workbox-Service-Workers)| Workbox-Service-Workers |
+|[17-Ins_Caching-Images](activities/17-Ins_Caching-Images)| Introduction - Caching-Images |
+|[18-Stu_Caching-Images](activities/18-Stu_Caching-Images)| Caching-Images |
+|[19-Ins_InjectManifest](activities/19-Ins_InjectManifest)| Introduction - InjectManifest |
+|[20-Stu_InjectManifest](activities/20-Stu_InjectManifest)| InjectManifest |
+|[21-Ins_IndexedDB](activities/21-Ins_IndexedDB)| Introduction - IndexedDB |
+|[22-Stu_IndexedDB](activities/22-Stu_IndexedDB)| IndexedDB |
+|[23-Ins_IndexedDB-CRUD](activities/23-Ins_IndexedDB-CRUD)| Introduction - IndexedDB-CRUD |
+|[24-Stu_IndexedDB-CRUD](activities/24-Stu_IndexedDB-CRUD)| IndexedDB-CRUD |
+|[25-Ins_Manifest](activities/25-Ins_Manifest)| Introduction - Manifest |
+|[26-Stu_Manifest](activities/26-Stu_Manifest)| Manifest |
 
 
