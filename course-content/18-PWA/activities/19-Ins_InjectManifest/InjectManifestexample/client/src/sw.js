@@ -24,7 +24,7 @@ const matchCallback = ({ request }) => {
   );
 };
 
-//registerst the route
+//registers the route
 // https://developers.google.com/web/tools/workbox/modules/workbox-routing
 // registerRoute(matchCb, handlerCb);
 // matchCb({url, request, event}) 
@@ -39,6 +39,11 @@ registerRoute(
   // otherwise wait for the network response. 
   // The cache is updated with the network response with each successful request.
   new StaleWhileRevalidate({
+    // ****
+    // https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#stale-while-revalidate
+    // The stale-while-revalidate pattern allows you to respond to the request as quickly as possible with a cached response if available, falling back to the network request if it's not cached. 
+    // The network request is then used to update the cache. As opposed to some implementations of stale-while-revalidate, 
+    // this strategy will always make a revalidation request, regardless of the age of the cached response.
     cacheName,
     plugins: [
       // https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-cacheable-response.CacheableResponsePlugin
@@ -59,6 +64,10 @@ registerRoute(
   // https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-strategies.CacheFirst?hl=en
   // A cache first strategy is useful for assets that have been revisioned, such as URLs like /styles/example.a8f5f1.css, since they can be cached for long periods of time.
   new CacheFirst({
+     // ****
+    // The request hits the cache. If the asset is in the cache, serve it from there.
+    // If the request is not in the cache, go to the network.
+    // Once the network request finishes, add it to the cache, then return the response from the network.
     cacheName: 'my-image-cache',
     plugins: [
       //https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-cacheable-response.CacheableResponsePlugin
