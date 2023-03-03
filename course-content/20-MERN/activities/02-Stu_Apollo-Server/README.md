@@ -26,7 +26,7 @@ Refer to the documentation:
 
   * [Apollo Docs on getting started with Apollo Server Express](https://www.apollographql.com/docs/apollo-server/integrations/integration-index/)
 
-  * [Apollo Docs on integrating with Node.js middleware](https://www.apollographql.com/docs/apollo-server/integrations/middleware/)
+  * [Apollo Docs on integrating with Node.js middleware](https://www.apollographql.com/docs/apollo-server/v2/integrations/middleware/)
 
 ---
 
