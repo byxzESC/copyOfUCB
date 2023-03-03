@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|20| [MERN](course-content/20-MERN/README.md) | MVC, MERN, Apollo Server, Apollo client, GraphQL, typeDef, Resolver, useQuery, userMutation, JWT |
 |19| [React](course-content/19-React/README.md) | React Components, React Props |
 |18| [PWA](course-content/18-PWA/README.md) | Performance, Lazy Loading Progressive Web Applications, Service Workers, Caching, Webpack, Chunking, IndexDB |
 |17| [NoSQL](course-content/17-NoSQL/README.md) | ODM, Mongo, Mongoose  |
