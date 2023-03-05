@@ -7,7 +7,7 @@ export default function Display() {
   // When the state changes run this callback
   useEffect(() => {
     // Update the localStorage count variable using the setItem method
-    localStorage.setItem('myCount', count);
+    localStorage.setItem('myCount', z);
   },[count]);
 
 

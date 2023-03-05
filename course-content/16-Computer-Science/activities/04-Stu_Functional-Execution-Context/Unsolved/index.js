@@ -6,7 +6,7 @@ function avg(array) {
       total += array[i];
     }
   }
-  
+  sum(array)
   return total/array.length;//ReferenceError: total is not defined
 }
 

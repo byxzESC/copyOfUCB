@@ -13,6 +13,9 @@ const resolvers = {
     },
     
     // TODO: Add a new resolver for a single Class object
+    classes: async (parent, args, contextValue, info) => {
+      return await Class.findById(args.id).populate('professor');
+    },
 
     professors: async () => {
       return await Professor.find({}).populate('classes');

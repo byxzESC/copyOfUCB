@@ -17,8 +17,8 @@ const bookSchema = new mongoose.Schema({
 
 // Using mongoose.model() to compile a model based on the schema 'bookSchema'
 const Book = mongoose.model('MyBook', bookSchema);
-
-// Create new instances of the model, a document
+async function dropBook () {
+  await Book.collection.drop();
 Book.create([
   { title: 'Hello, World', price: 5, inStock: true },
   { title: 'Hello World 2.0', price: 10, inStock: false },
@@ -28,5 +28,14 @@ Book.create([
   { title: 'Hello World Infinity', price: 25, inStock: false },
   { title: 'Hello World Infinity and Beyond', price: 4, inStock: true },
 ]);
+
+}
+dropBook();
+
+// Book.collection.drop();
+// Book.collection('Book').deleteMany({});
+console.log("book collection dropped");
+// Create new instances of the model, a document
+
 
 module.exports = Book;

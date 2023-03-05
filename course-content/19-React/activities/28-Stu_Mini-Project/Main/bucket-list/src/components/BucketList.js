@@ -11,16 +11,12 @@ function BucketList() {
       '🚀 ~ file: BucketList.js ~ line 10 ~ addBucketItem ~ item',
       item
     );
-    // Check to see if the item text is empty
-    if (!item.text) {
-      return;
-    }
+
+    if (!item.text) return;
 
     // Add the new bucket list item to the existing array of objects
     const newBucket = [item, ...bucket];
-    console.log(newBucket);
 
-    // Call setBucket to update state with our new set of bucket list items
     setBucket(newBucket);
   };
 
@@ -48,9 +44,7 @@ function BucketList() {
   // Function to edit the bucket list item
   const editBucketItem = (itemId, newValue) => {
     // Make sure that the value isn't empty
-    if (!newValue.text) {
-      return;
-    }
+    if (!newValue.text) return;
 
     // We use the "prev" argument provided with the useState hook to map through our list of items
     // We then check to see if the item ID matches the if of the item that was clicked and if so we set it to a new value

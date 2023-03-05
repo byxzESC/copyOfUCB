@@ -3,7 +3,7 @@
 ## Root-level Functionality
 
 * TODO: Explain what each script does in the root-level `package.json` file:
-
+we are setting shortcuts for the commands
 ```json
 "scripts": {
   "start": "node server/server.js",
@@ -24,7 +24,7 @@
 
 ## Server-side Functionality
 * TODO: Add a comment describing the functionality of this block of code in `server/server.js`:
-
+if node_env equals to 
 ```js
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
@@ -32,7 +32,7 @@ if (process.env.NODE_ENV === 'production') {
 ```
 
 * TODO: Add a comment describing the functionality of this route in `server/server.js`:
-
+going to any unknown route will send you to the index.html
 ```js
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));

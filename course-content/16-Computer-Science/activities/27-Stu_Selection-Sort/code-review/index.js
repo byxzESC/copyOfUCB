@@ -34,7 +34,9 @@ function swap(items, firstIndex, secondIndex) {
   // items[secondIndex] = items[firstIndex]
 }
 // Can you use the example array below to walk through the what 'swap' is doing to the input array? 
-// swap([4,2,6,1], 0, 1);
+const arr = [4,2,6,1];
+swap(arr, 0, 1);
+console.log(arr)
 
 
 

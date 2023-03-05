@@ -30,7 +30,7 @@ sortHufflepuff("Cedric Diggory")
 // In one line of code, create a function called "goToCommonRoom" which takes a house as an argument, and returns all the students from that given house.
 // ============ YOUR WORK HERE ===========
 
-
+goToCommonRoom = (house) => 
 
 
 

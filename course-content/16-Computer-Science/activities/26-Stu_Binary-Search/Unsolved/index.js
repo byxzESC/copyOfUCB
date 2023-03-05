@@ -9,16 +9,24 @@ function binarySearch(array, element) {
     let mid = Math.floor((start + end) / 2);
 
     if (array[mid] === element) {
-      return;
+      return true;
     } else if (array[mid] < element) {
       start = mid + 1;
     } else {
       end = mid - 1;
     }
   }
-  return;
+  return false;
 }
 
 console.log(binarySearch(arr, 7));
 
 module.exports = binarySearch;
+
+
+max = (num) => {
+  const result = 0;
+  num.forEach((x) => result > x ? result : result = x)
+  return result;
+}
+

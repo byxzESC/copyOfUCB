@@ -35,6 +35,7 @@ window.editList = async (e) => {
 window.editTodo = async (e) => {
 e.preventDefault()
 let id = parseInt(e.target.children[0].id)
+
 let todo = e.target.children[0].value
   console.log(e.target.children[0].id);
   console.log(e.target.children[0].value);

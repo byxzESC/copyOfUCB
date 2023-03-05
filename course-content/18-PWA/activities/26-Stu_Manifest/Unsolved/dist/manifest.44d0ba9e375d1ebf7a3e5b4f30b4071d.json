@@ -1,0 +1,17 @@
+{
+  "icons": [
+    {
+      "src": "auto/icon_1024x1024.46cf92d8b08421e8720a5b14bf8a5d89.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "name": "My Progressive Web App",
+  "short_name": "MyPWA",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "My awesome Progressive Web App!",
+  "background_color": "#ffffff"
+}

@@ -10,8 +10,10 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // TODO: Describe what the following two lines of code are doing.
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+// configure handlebars
+// sets view engine to handlebars
+app.engine('handle', hbs.engine);
+app.set('view engine', 'handle');
 
 
 app.use(express.static(path.join(__dirname, 'public')));

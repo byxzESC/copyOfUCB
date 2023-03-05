@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+const {Tag} = require('./Tags');
 
 // Schema to create Post model
 const postSchema = new Schema(
@@ -13,8 +14,8 @@ const postSchema = new Schema(
     },
     tags: [
       {
-        type: 'Tag',
-        ref: 'Tag',
+        type: Schema.Types.ObjectId,
+        ref: 'tag',
       },
     ],
     text: {

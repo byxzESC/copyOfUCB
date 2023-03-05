@@ -23,6 +23,9 @@ app.get('/sum-price', (req, res) => {
   Book.aggregate(
     [
       {
+        $match: { inStock: true }
+      },
+      {
         $group: {
           _id: null,
           sum_price: { $sum: '$price' },
@@ -31,6 +34,7 @@ app.get('/sum-price', (req, res) => {
           min_price: { $min: '$price' },
         },
       },
+
     ],
     (err, result) => {
       if (err) {

@@ -23,3 +23,14 @@ const goFast = speed => {
 if(confirm("Do you want to go fast?")) {
   goFast(80);
 }
+
+var stuff = []
+
+function filter (arr) {
+  for ( let i = 0; i < arr.length; i++) {
+    if (arr[i] === random_value) {
+      return true;
+    }
+  }
+  return false;
+} 

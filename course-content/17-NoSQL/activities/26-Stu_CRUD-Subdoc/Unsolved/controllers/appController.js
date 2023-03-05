@@ -16,6 +16,7 @@ module.exports = {
       .catch((err) => res.status(500).json(err));
   },
   // TODO: Add comments to the functionality of the createApplication method
+  // creating an new application with userId, and application id
   createApplication(req, res) {
     Application.create(req.body)
       .then((application) => {
@@ -76,6 +77,7 @@ module.exports = {
       .catch((err) => res.status(500).json(err));
   },
   // TODO: Add comments to the functionality of the addTag method
+  // add tags to the application with params id.
   addTag(req, res) {
     Application.findOneAndUpdate(
       { _id: req.params.applicationId },

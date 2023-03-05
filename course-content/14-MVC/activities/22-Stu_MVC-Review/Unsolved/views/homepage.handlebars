@@ -1,3 +1,24 @@
+
+{{#each userDataArr as |user|}}
+<div class="row align-center mb-5">
+  <div class="col-md-6">
+    <h2>{{{get_emoji}}} {{name}}</h2>
+  </div>
+  <div class="col-md-6">
+    <h3><a href="mailto:test@gmail.com">{{email}}</a></h3>
+  </div>
+</div>
+{{/each}}
+
+{{!-- <div class="row align-center mb-5">
+  <div class="col-md-6">
+    <h2>{{{get_emoji}}} {{name}}</h2>
+  </div>
+  <div class="col-md-6">
+    <h3><a href="mailto:test@gmail.com">test@gmail.com</a></h3>
+  </div>
+</div>
+
 <div class="row align-center mb-5">
   <div class="col-md-6">
     <h2>{{{get_emoji}}} Test User</h2>
@@ -5,20 +26,4 @@
   <div class="col-md-6">
     <h3><a href="mailto:test@gmail.com">test@gmail.com</a></h3>
   </div>
-</div>
-<div class="row align-center mb-5">
-  <div class="col-md-6">
-    <h2>{{{get_emoji}}} Test User</h2>
-  </div>
-  <div class="col-md-6">
-    <h3><a href="mailto:test@gmail.com">test@gmail.com</a></h3>
-  </div>
-</div>
-<div class="row align-center mb-5">
-  <div class="col-md-6">
-    <h2>{{{get_emoji}}} Test User</h2>
-  </div>
-  <div class="col-md-6">
-    <h3><a href="mailto:test@gmail.com">test@gmail.com</a></h3>
-  </div>
-</div>
+</div> --}}

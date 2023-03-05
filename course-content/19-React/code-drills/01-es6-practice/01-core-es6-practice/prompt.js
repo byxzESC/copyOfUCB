@@ -21,7 +21,10 @@ const animals = {
 
 
 // ============ YOUR WORK HERE ===========
+logAnimalsAndTypes = (arr) => {
+  arr.map((animal, index, arr) => console.log(`${animal}: ${arr[animal]}`))
 
+}
 
 
 
@@ -38,7 +41,7 @@ function addStrings(str1, str2) {
 
 
 // ============ YOUR WORK HERE ===========
-
+const addStrings = (str1, str2) => str1 + str2
 
 
 
@@ -61,7 +64,7 @@ function doStuff(arg1, arg2, callback) {
 
 
 // ============ YOUR WORK HERE ===========
-
+doStuff(1, 2, ()=> argument[0], argument[1] )
 
 
 
@@ -88,7 +91,15 @@ function whoChanging() {
 }
 
 // ============ YOUR WORK HERE ===========
+whoChanging = () => {
+  let counter = 0,
+  bool = true,
+  incrementer = 2;
 
+  while(bool) {
+    counter = 20 ? bool = false : counter += incrementer;
+  }
+}
 
 
 

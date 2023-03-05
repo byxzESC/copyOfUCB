@@ -44,3 +44,20 @@ app.get('/read', (req, res) => {
 
 
 // TODO: Add Delete route that deletes by id provided in the request body
+
+
+app.delete('/delete', (req, res) => {
+  const id = new ObjectId("63f66c5fd76070678c7bdb53");
+  db.collection('bookCollection')
+  .deleteOne({ "_id": id },
+
+    (err, results) => {
+      if (err) {
+        console.error(err)
+      } else {
+        res.status(500).json(results);
+      }
+    }
+
+  );
+})

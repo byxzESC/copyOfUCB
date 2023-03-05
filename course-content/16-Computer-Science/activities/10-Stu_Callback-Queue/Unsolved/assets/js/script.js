@@ -6,7 +6,10 @@ const pause = milliSeconds => {
   // get the current time
   var startTime = new Date().getTime(); 
   // block stack until time's up
-  while (new Date().getTime() < startTime + milliSeconds); 
+  while (new Date().getTime() > startTime + milliSeconds) {
+    console.log('running')
+    return
+  }; 
 }
 
 pause(8000);

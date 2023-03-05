@@ -3,7 +3,7 @@
 // Below we define the actions we want our factory functions to use.
 const phoneCall = (state) => ({
   call: () => console.log(`${state.name}'s Phone: ${state.ringTone}`),
-  // shout: () => console.log(`${state.name}'s Phone: ${state.ringTone}`),
+  shout: () => console.log(`${state.name}'s Phone: ${state.ringTone}`),
 });
 
 const makeNoise = (state) => ({

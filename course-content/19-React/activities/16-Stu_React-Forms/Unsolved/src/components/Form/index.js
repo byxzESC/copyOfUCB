@@ -10,6 +10,7 @@ function Form() {
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
   // TODO: Create a password variable and a function "setPassword" using useState
+  const [password, setPassword ] = useState('')
 
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -79,6 +80,7 @@ function Form() {
           Submit
         </button>
       </form>
+      {/* what is this boolean  */}
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>

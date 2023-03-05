@@ -1,5 +1,5 @@
 // TODO: Add a comment explaining the role of `export` in this function `boxClick()`
-
+// export will be exporting this function called boxClick()
 export const boxClick = () => {
   const box = document.getElementById('box');
   if (box.style.backgroundColor === 'blue') {

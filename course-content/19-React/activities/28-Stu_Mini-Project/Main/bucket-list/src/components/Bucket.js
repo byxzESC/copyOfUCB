@@ -21,6 +21,7 @@ function Bucket(props) {
 
   return props.bucket.map((item, i) => (
     <div
+    // conditional on the class name
       className={
         item.isComplete
           ? `bucket-row complete ${item.eagerness}`
