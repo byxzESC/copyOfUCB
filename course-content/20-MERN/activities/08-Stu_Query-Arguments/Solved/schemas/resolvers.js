@@ -11,6 +11,13 @@ const resolvers = {
     classes: async () => {
       return await Class.find({}).populate('professor');
     },
+    // Define a resolver to retrieve individual classes
+    class: async (parent, args) => {
+      // Use the parameter to find the matching class in the collection
+      // https://www.apollographql.com/docs/apollo-server/data/resolvers/#as-this-example-shows-1
+      // https://graphql.org/learn/queries/#variables
+      return await Class.findById(args.id).populate('professor');
+    },
     professors: async () => {
       return await Professor.find({}).populate('classes');
     }
@@ -18,7 +25,3 @@ const resolvers = {
 };
 
 module.exports = resolvers;
-
-const { School, Class, Professor } = require('../models');
-const { Types: { ObjectId } } = require('mongoose');
-
