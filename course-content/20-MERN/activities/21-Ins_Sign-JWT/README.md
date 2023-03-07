@@ -36,7 +36,7 @@ In this demo, you will create a profile and verify JSON Web Tokens to log into a
 
   ```json
   {
-    "email": "lernantino@techfriends.biz",
+    "email": "lernantino@techfriends.dev",
     "password": "password10"
   }
   ```

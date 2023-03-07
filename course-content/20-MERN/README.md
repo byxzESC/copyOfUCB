@@ -53,5 +53,7 @@
 |[24-Stu_Decode-JWT](activities/24-Stu_Decode-JWT)| Activity - Decode JWT |
 |[25-Ins_Resolver-Context](activities/25-Ins_Resolver-Context)| Introduction - Resolver Context |
 |[26-Stu_Resolver-Context](activities/26-Stu_Resolver-Context)| Activity - Resolver Context |
+|[27-Stu_Mini-Project](activities/27-Stu_Mini-Project)| Activity - Mini Project |
+
 
 
