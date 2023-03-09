@@ -18,6 +18,8 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|23| [Project Three](course-content/23-Project-3) | All Project Three Info |
+|22| [Mock Interview II](course-content/22-mock-interview-02) | White Boarding, Interview Practice |
 |21| [State](course-content/21-State/README.md) |  Context API, Redux Reducers, Reducers, Actions, useReducer React Hook, PropDrilling, Providers, Consumers |
 |20| [MERN](course-content/20-MERN/README.md) | MVC, MERN, Apollo Server, Apollo client, GraphQL, typeDef, Resolver, useQuery, userMutation, JWT |
 |19| [React](course-content/19-React/README.md) | React Components, React Props |
