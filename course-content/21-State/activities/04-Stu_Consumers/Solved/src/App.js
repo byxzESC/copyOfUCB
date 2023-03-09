@@ -16,6 +16,7 @@ function App() {
       {/* Provider wraps all the logic that handles/updates our state */}
       <StudentProvider>
         <StudentList />
+        <StudentList />
       </StudentProvider>
     </div>
   );

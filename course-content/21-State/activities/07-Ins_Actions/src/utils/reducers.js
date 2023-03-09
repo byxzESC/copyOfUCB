@@ -5,7 +5,7 @@ const randomNum = () => Math.floor(Math.random() * 20);
 
 export default function reducer(state, action) {
   switch (action.type) {
-    case ADD_CAR: {
+    case 'ADD_CAR': {
       const newID = randomNum();
       const newCar = { ...action.payload, id: newID };
 
