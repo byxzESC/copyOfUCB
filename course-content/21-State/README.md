@@ -48,6 +48,14 @@
 |[18-Stu_JWT-Review](activities/18-Stu_JWT-Review)| Activity - JWT Review |
 |[19-Ins_useReducer-Review](activities/19-Ins_useReducer-Review)| Introduction - useReducer Review |
 |[20-Stu_useReducer-Review](activities/20-Stu_useReducer-Review)| Activity - useReducer Review |
+|[20-Stu_useReducer-Review](activities/20-Stu_useReducer-Review)| Activity - useReducer Review |
+|[21-Ins_Typedefs](activities/21-Ins_Typedefs)| Introduction - Typedefs Review |
+|[22-Stu_Typedefs](activities/22-Stu_Typedefs)| Activity - Typedefs Review |
+|[23-Ins_Stripe](activities/23-Ins_Stripe)| Introduction - Stripe Intro |
+|[24-Stu_Stripe](activities/24-Stu_Stripe)| Activity - Stripe |
+|[25-Ins_Actions-Reducers](activities/25-Ins_Actions-Reducers)| Introduction - Actions-Reducers Review |
+|[26-Stu_Actions-Reducers](activities/26-Stu_Actions-Reducers)| Activity - Actions-Reducers Review |
+|[27-Stu_Mini-Project](activities/27-Stu_Mini-Project)| State - Mini Project |
 
 
 
