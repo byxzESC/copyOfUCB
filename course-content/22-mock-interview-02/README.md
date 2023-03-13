@@ -27,6 +27,7 @@ Review the code drills from our Computer Science Module to best prepare for this
 |  Activity |
 |:--	|
 |[01-interview-series](activities/01-interview-series-one-revisted/README.md)|
+|[02-interview-series-two](activities/02-interview-series-two/README.md)|
 
 
 
