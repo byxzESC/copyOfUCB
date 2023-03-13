@@ -18,6 +18,7 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 
 | # | Section Name | Description |
 |:--| :--  | :--  |
+|24| [Post Bootcamp](#post-bootcamp) | Post Bootcamp Track; Project Builds, subject reviews, Algorithms, Code Drills, New Technologies  |
 |23| [Project Three](course-content/23-Project-3) | All Project Three Info |
 |22| [Mock Interview II](course-content/22-mock-interview-02) | White Boarding, Interview Practice |
 |21| [State](course-content/21-State/README.md) |  Context API, Redux Reducers, Reducers, Actions, useReducer React Hook, PropDrilling, Providers, Consumers |
@@ -46,6 +47,28 @@ If you have questions about `Course Guidelines` such as `Student Support Listing
 <hr>
 <hr>
 
+
+## Post Bootcamp
+[Back to Course Content](#course-content)
+
+<div style="text-align:center">
+<img src="https://media2.giphy.com/media/3o6fJ1BM7R2EBRDnxK/giphy.gif?cid=3640f6095bbfece03231326f32e6008d" width="500">
+</div>
+
+#### CONGRATULATIONS!!!
+
+Welcome to the end of your course! You Made it!
+
+Take a few days to get some rest, attend to some neglected relationships, and to fully embrace your new identity in the world as a **Full Stack Developer**!!!
+
+Once you catch your breath dive back into our classroom repo to `redo Classroome Activites`, `redo or improve on classroom Homework Assignments`, `redo or attack some code drills`, or investigate the directions provided in the [post boot camp section](course-content/24-post-bootcamp#post-bootcamp). Here you will find a listing of links and resources for `Interview Preparation`  as well as some `Project Builds`, `subject reviews`, `Algorithms, Code Drills`, and a few `New Technologies` exploration prompts. 
+
+### :fire: :fire: :fire: [Check Out the Post Bootcamp Section](course-content/24-post-bootcamp#post-bootcamp)
+
+
+<hr>
+<hr>
+<hr>
 
 
 
